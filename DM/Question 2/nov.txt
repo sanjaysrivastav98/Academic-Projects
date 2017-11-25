@@ -1,0 +1,32 @@
+Consequent	Antecedent 	Support %	Confidence %
+ItemName_Butter Naan	ItemName_Butter Chicken	4.658	80.875
+ItemName_Butter Naan	ItemName_KADHAI PANEER	2.784	79.024
+ItemName_Veg Petty	ItemName_Pastry	2.768	59.078
+ItemName_Butter Naan	ItemName_CHILLY CHICKEN 	1.048	51.813
+ItemName_Plain Maggi	ItemName_Masala Dosa	6.19	8.074
+ItemName_Veg Petty	ItemName_SAMOSA CHAT	3.267	7.066
+ItemName_Veg Petty	ItemName_BINOG CHIP @20	1.434	6.818
+ItemName_Chicken Rice	ItemName_CHILLY CHICKEN 	1.048	6.477
+ItemName_Butter Naan	ItemName_COKE MIX 600 ML	9.028	6.348
+ItemName_DAIRY MILK@35	ItemName_DUKE WAFFY BISCUIT	1.219	5.791
+ItemName_Plain Maggi	ItemName_Samosa	3.015	5.766
+ItemName_Plain Maggi	ItemName_Ice Cream Shake	7.703	5.712
+ItemName_Plain Maggi	ItemName_Chicken Sandwich	6.632	5.651
+ItemName_Plain Maggi	ItemName_Chese Toast	12.029	5.577
+ItemName_Plain Maggi	ItemName_Paneer Franky	3.865	5.411
+ItemName_DAIRY MILK@35	ItemName_CHCO PIE	1.513	5.206
+ItemName_Plain Maggi	ItemName_CAKE SANDWICH	1.64	5.132
+ItemName_Plain Maggi	ItemName_BINOG CHIP @10	5.853	5.012
+ItemName_Plain Maggi	ItemName_Pasta	1.961	4.848
+ItemName_BRT CAKES	ItemName_SNICKERS SNACK 	1.078	4.786
+ItemName_Plain Maggi	ItemName_Chese Burger	3.411	4.777
+ItemName_Butter Naan	ItemName_Ice Cream Shake	7.703	4.584
+ItemName_Plain Maggi	ItemName_SNICKERS SNACK 	1.078	4.534
+ItemName_Chicken Rice	ItemName_Butter Chicken	4.658	4.49
+ItemName_Plain Maggi	ItemName_COKE MIX 600 ML	9.028	4.422
+ItemName_Veg Petty	ItemName_REAL 	1.684	4.194
+ItemName_DAIRY MILK@35	ItemName_BINOG CHIP @20	1.434	4.167
+ItemName_Butter Naan	ItemName_Pasta	1.961	4.155
+ItemName_Plain Maggi	ItemName_CHCO PIE	1.513	4.129
+ItemName_Chicken Rice	ItemName_Chicken Sandwich	6.632	4.095
+ItemName_Plain Maggi	ItemName_PULPY ORANGE	5.663	4.077

@@ -1,0 +1,80 @@
+Consequent	Antecedent 	Support %	Confidence %
+ItemName_Butter Naan	ItemName_Butter Chicken	3.477	88.491
+ItemName_Butter Naan	ItemName_KADHAI PANEER	3.645	86.499
+ItemName_Butter Naan	ItemName_Tandury Chicken 1/2	5.976	20.543
+ItemName_Veg Petty	ItemName_Pastry	3.867	12.867
+ItemName_PEPSI 600ML	ItemName_Tandury Chicken 1/2	5.976	11.674
+ItemName_Plain Maggi	ItemName_DEW MIX and ItemName_Ice Cream Shake	1.125	11.538
+ItemName_PEPSI 600ML	ItemName_Butter Chicken	3.477	10.42
+ItemName_PEPSI 600ML	ItemName_5STAR	1.195	10.407
+ItemName_PEPSI 600ML	ItemName_BIS JAM TREAT @15	1.676	10.0
+ItemName_PEPSI 600ML	ItemName_KADHAI PANEER	3.645	9.644
+ItemName_PEPSI 600ML	ItemName_Chese Toast	13.044	9.619
+ItemName_PEPSI 600ML	ItemName_BHELPURI	1.211	9.375
+ItemName_PEPSI 600ML	ItemName_DEW MIX and ItemName_Chese Toast	1.168	9.259
+ItemName_SINGLE SCOOP	ItemName_DEW MIX and ItemName_Ice Cream Shake	1.125	9.135
+ItemName_PEPSI 600ML	ItemName_Paneer Franky	3.861	9.104
+ItemName_PEPSI 600ML	ItemName_Chese Burger	4.343	8.842
+ItemName_PEPSI 600ML	ItemName_Chese Toast and ItemName_Ice Cream Shake	2.926	8.503
+ItemName_PEPSI 600ML	ItemName_BINOG CHIP @10	4.856	8.463
+ItemName_Butter Naan	ItemName_DEW MIX and ItemName_Ice Cream Shake	1.125	8.173
+ItemName_DAIRY MILK@35	ItemName_5STAR	1.195	8.145
+ItemName_PEPSI 600ML	ItemName_BOURBONE@18	1.065	8.122
+ItemName_SINGLE SCOOP	ItemName_BIS JAM TREAT @15	1.676	8.065
+ItemName_Plain Maggi	ItemName_Pasta and ItemName_Ice Cream Shake	1.028	7.895
+ItemName_PEPSI 600ML	ItemName_Pasta and ItemName_Ice Cream Shake	1.028	7.895
+ItemName_Plain Maggi	ItemName_DEW MIX and ItemName_Chese Toast	1.168	7.87
+ItemName_PEPSI 600ML	ItemName_SLICE 600ML	1.963	7.713
+ItemName_SINGLE SCOOP	ItemName_Chese Toast and ItemName_Ice Cream Shake	2.926	7.394
+ItemName_PEPSI 600ML	ItemName_Pasta	4.981	7.383
+ItemName_LITTLE HEARTS	ItemName_BOURBONE@18	1.065	7.107
+ItemName_PEPSI 600ML	ItemName_Masala Dosa	5.349	7.078
+ItemName_Butter Naan	ItemName_DEW MIX and ItemName_Chese Toast	1.168	6.944
+ItemName_PEPSI 600ML	ItemName_DEW MIX and ItemName_Ice Cream Shake	1.125	6.731
+ItemName_Plain Maggi	ItemName_BOURBONE@18	1.065	6.599
+ItemName_Plain Maggi	ItemName_Masala Dosa	5.349	6.37
+ItemName_Plain Maggi	ItemName_Ice Cream Shake	19.453	6.311
+ItemName_Butter Naan	ItemName_DEW MIX	9.707	6.017
+ItemName_PEPSI 600ML	ItemName_DEW MIX	9.707	5.85
+ItemName_LITTLE HEARTS	ItemName_BIS JAM TREAT @15	1.676	5.806
+ItemName_Plain Maggi	ItemName_Pasta	4.981	5.755
+ItemName_Plain Maggi	ItemName_PULPY ORANGE	4.251	5.598
+ItemName_SINGLE SCOOP	ItemName_BOURBONE@18	1.065	5.584
+ItemName_PEPSI 600ML	ItemName_Ice Cream Shake	19.453	5.56
+ItemName_Plain Maggi	ItemName_Chese Toast and ItemName_Ice Cream Shake	2.926	5.545
+ItemName_SINGLE SCOOP	ItemName_Masala Dosa	5.349	5.359
+ItemName_SINGLE SCOOP	ItemName_Paneer Franky	3.861	5.322
+ItemName_SINGLE SCOOP	ItemName_Chese Toast	13.044	5.307
+ItemName_SINGLE SCOOP	ItemName_Pasta and ItemName_Ice Cream Shake	1.028	5.263
+ItemName_Butter Naan	ItemName_Pasta	4.981	5.212
+ItemName_DAIRY MILK@35	ItemName_DEW MIX and ItemName_Chese Toast	1.168	5.093
+ItemName_SINGLE SCOOP	ItemName_Ice Cream Shake	19.453	5.06
+ItemName_Fried Maggi	ItemName_Chese Toast and ItemName_Ice Cream Shake	2.926	4.991
+ItemName_SINGLE SCOOP	ItemName_SLICE 600ML	1.963	4.959
+ItemName_Fried Maggi	ItemName_Masala Dosa	5.349	4.954
+ItemName_LITTLE HEARTS	ItemName_BHELPURI	1.211	4.911
+ItemName_Plain Maggi	ItemName_DEW MIX	9.707	4.903
+ItemName_Plain Maggi	ItemName_Chese Toast	13.044	4.851
+ItemName_SINGLE SCOOP	ItemName_Pasta	4.981	4.777
+ItemName_Butter Naan	ItemName_Ice Cream Shake	19.453	4.754
+ItemName_Fried Maggi	ItemName_Pasta and ItemName_Ice Cream Shake	1.028	4.737
+ItemName_Plain Maggi	ItemName_SLICE 600ML	1.963	4.683
+ItemName_MYCAN	ItemName_BINOG CHIP @10	4.856	4.566
+ItemName_SINGLE SCOOP	ItemName_5STAR	1.195	4.525
+ItemName_Plain Maggi	ItemName_Pastry	3.867	4.476
+ItemName_SINGLE SCOOP	ItemName_BINOG CHIP @10	4.856	4.454
+ItemName_Veg Rice	ItemName_KADHAI PANEER	3.645	4.451
+ItemName_PEPSI 600ML	ItemName_REAL 	2.563	4.43
+ItemName_DAIRY MILK@35	ItemName_BINOG CHIP @10	4.856	4.343
+ItemName_Plain Maggi	ItemName_BINOG CHIP @10	4.856	4.343
+ItemName_MYCAN	ItemName_Chese Toast	13.044	4.229
+ItemName_Butter Naan	ItemName_Pasta and ItemName_Ice Cream Shake	1.028	4.211
+ItemName_Plain Maggi	ItemName_Paneer Franky	3.861	4.202
+ItemName_PERK / DAIRY MILK	ItemName_BIS JAM TREAT @15	1.676	4.194
+ItemName_SINGLE SCOOP	ItemName_DEW MIX	9.707	4.178
+ItemName_TROPICANA	ItemName_DEW MIX and ItemName_Chese Toast	1.168	4.167
+ItemName_SINGLE SCOOP	ItemName_DEW MIX and ItemName_Chese Toast	1.168	4.167
+ItemName_5* CRUNCHY	ItemName_BOURBONE@18	1.065	4.061
+ItemName_Butter Naan	ItemName_Masala Dosa	5.349	4.044
+ItemName_MYCAN	ItemName_Pasta	4.981	4.017
+ItemName_Plain Maggi	ItemName_REAL 	2.563	4.008

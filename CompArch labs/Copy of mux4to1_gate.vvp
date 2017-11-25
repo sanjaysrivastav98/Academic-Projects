@@ -1,0 +1,56 @@
+#! c:/iverilog-x86/bin/vvp
+:ivl_version "10.0 (stable)" "(v10_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0097f360 .scope module, "mux4to1_gate" "mux4to1_gate" 2 1;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 1 "out"
+    .port_info 1 /INPUT 4 "in"
+    .port_info 2 /INPUT 2 "sel"
+L_00975748 .functor NOT 1, L_01f83788, C4<0>, C4<0>, C4<0>;
+L_00973938 .functor NOT 1, L_01f837e0, C4<0>, C4<0>, C4<0>;
+L_0097dca0 .functor AND 1, L_01f83838, L_00975748, L_00973938, C4<1>;
+L_0097dce8 .functor AND 1, L_01f83890, L_00973938, L_01f838e8, C4<1>;
+L_0097dd30 .functor AND 1, L_01f83940, L_01f83998, L_00975748, C4<1>;
+L_0097dde0 .functor AND 1, L_01f839f0, L_01f83a48, L_01f83aa0, C4<1>;
+L_0097d5d0 .functor OR 1, L_0097dca0, L_0097dce8, L_0097dd30, L_0097dde0;
+v009756f0_0 .net *"_s1", 0 0, L_01f83788;  1 drivers
+v0097f430_0 .net *"_s11", 0 0, L_01f838e8;  1 drivers
+v0097f488_0 .net *"_s14", 0 0, L_01f83940;  1 drivers
+v0097f4e0_0 .net *"_s16", 0 0, L_01f83998;  1 drivers
+v00973780_0 .net *"_s19", 0 0, L_01f839f0;  1 drivers
+v009737d8_0 .net *"_s21", 0 0, L_01f83a48;  1 drivers
+v00973830_0 .net *"_s23", 0 0, L_01f83aa0;  1 drivers
+v00973888_0 .net *"_s3", 0 0, L_01f837e0;  1 drivers
+v009738e0_0 .net *"_s6", 0 0, L_01f83838;  1 drivers
+v0097dc48_0 .net *"_s9", 0 0, L_01f83890;  1 drivers
+v01f83470_0 .net "a1", 0 0, L_0097dca0;  1 drivers
+v01f834c8_0 .net "a2", 0 0, L_0097dce8;  1 drivers
+v01f83520_0 .net "a3", 0 0, L_0097dd30;  1 drivers
+v01f83578_0 .net "a4", 0 0, L_0097dde0;  1 drivers
+o01f5159c .functor BUFZ 4, C4<zzzz>; HiZ drive
+v01f835d0_0 .net "in", 0 3, o01f5159c;  0 drivers
+v01f83628_0 .net "n1", 0 0, L_00975748;  1 drivers
+v01f83680_0 .net "n2", 0 0, L_00973938;  1 drivers
+v01f836d8_0 .net "out", 0 0, L_0097d5d0;  1 drivers
+o01f515fc .functor BUFZ 2, C4<zz>; HiZ drive
+v01f83730_0 .net "sel", 0 1, o01f515fc;  0 drivers
+L_01f83788 .part o01f515fc, 0, 1;
+L_01f837e0 .part o01f515fc, 1, 1;
+L_01f83838 .part o01f5159c, 3, 1;
+L_01f83890 .part o01f5159c, 2, 1;
+L_01f838e8 .part o01f515fc, 0, 1;
+L_01f83940 .part o01f5159c, 1, 1;
+L_01f83998 .part o01f515fc, 1, 1;
+L_01f839f0 .part o01f5159c, 0, 1;
+L_01f83a48 .part o01f515fc, 1, 1;
+L_01f83aa0 .part o01f515fc, 0, 1;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "mux4to1_gate.v";

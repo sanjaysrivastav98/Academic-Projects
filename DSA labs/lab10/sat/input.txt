@@ -1,0 +1,16 @@
+1 12
+/bin
+/dev
+/etc
+/home
+/lib
+/usr
+/var
+/dev/fd
+/dev/hd
+/dev/tty
+/usr/saiyedul
+/user/jagat
+2 /dev/ld
+2 /usr
+-1

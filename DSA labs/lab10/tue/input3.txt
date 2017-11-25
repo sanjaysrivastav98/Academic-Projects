@@ -1,0 +1,202 @@
+1 100
+/proc/2290/task/2409/attr
+/proc/2035/task/2116/net/rpc
+/proc/2290/task/2321/net/rpc/auth.unix.ip
+/proc/1965/net/rpc/nfsd.fh
+/sys/devices/virtual/thermal/cooling_device2/power
+/usr/lib/rpm/platform/ppciseries-linux
+/usr/lib/python2.7/site-packages/gnome_abrt/url
+/usr/lib/modules/3.19.8-100.fc20.i686+PAE/extra/drivers
+/usr/share/doc/webkitgtk3
+/proc/1688/task/1695/attr
+/sys/kernel/slab/:t-0000768/cgroup
+/usr/lib/modules/3.11.10-301.fc20.i686+PAE/kernel/drivers/input/gameport
+/usr/share/locale/ku/LC_MESSAGES
+/usr/lib/libreoffice/share/template/common/wizard/letter
+/proc/2172/net/rpc/auth.rpcsec.init
+/proc/1700/task/1706/net/rpc/auth.rpcsec.init
+/var/lib/yum/yumdb/f/e962dd6713d9e57a4a3b04809480c283e0e6cf71-firewalld-0.3.13-1.fc20-noarch
+/proc/1674/task/1675/fd
+/proc/467/task/467/net/rpc/nfsd.fh
+/proc/614/net/rpc/auth.rpcsec.context
+/var/lib/yum/yumdb/p/9a2cd2db97b771e7bb14921d6095d13253a176a3-python-augeas-0.5.0-1.fc20-noarch
+/proc/103/task/103/net/rpc/auth.unix.gid
+/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0b
+/proc/1578/net/rpc/auth.rpcsec.context
+/usr/share/X11/locale/georgian-academy
+/usr/share/locale/hr_HR
+/usr/share/libkkc/rules/azik/rom-kana
+/usr/share/brasero/icons/hicolor/32x32/actions
+/proc/608/net/stat
+/proc/21306/task/21306/net/rpc/auth.rpcsec.context
+/usr/share/lua/5.2/socket
+/usr/share/adium/message-styles/Classic.AdiumMessageStyle
+/usr/share/doc/rsync/support
+/proc/22/task/22/net/rpc
+/etc/plymouth
+/usr/share/icons/hicolor/128x128/stock/media
+/usr/share/locale/mun/LC_MESSAGES
+/proc/617/task/626/net/stat
+/proc/2077/net/rpc/nfs4.nametoid
+/run/udev/links/\x2fdisk\x2fby-id\x2fwwn-0x5000c500502b35c2-part1
+/sys/devices/LNXSYSTM:00/LNXCPU:02/power
+/sys/module/iTCO_vendor_support/holders
+/usr/share/locale/arw/LC_MESSAGES
+/usr/share/locale/sr@ijekavianlatin
+/proc/34/net
+/usr/share/locale/ber/LC_MESSAGES
+/usr/share/icons/hicolor/256x256/apps
+/var/cache/man/ps
+/var/lib/yum/yumdb/g/112cbc2cc7a7a5ee0aa6822dc7825c09c19d0cde-gnome-boxes-3.10.2-3.fc20-i686
+/proc/860/task/860/net/rpc/auth.rpcsec.init
+/proc/511/task/511/net/rpc/nfsd.export
+/sys/devices/system/cpu/cpu2/thermal_throttle
+/usr/lib/python3.3/site-packages/orca/scripts/apps/Eclipse/__pycache__
+/sys/class/vc
+/sys/module/ip6_tables
+/usr/share/zoneinfo/right/America/Argentina
+/proc/21/task/21/net/rpc/nfsd.fh
+/proc/1808/attr
+/sys/devices/pci0000:00/0000:00:1f.2/ata1/host0/target0:0:0/0:0:0:0/scsi_generic/sg0
+/var/lib/yum/yumdb/s/1d610ee2e09b57c2d9d4c23a1faeb38e17a8e6b4-seahorse-3.10.2-1.fc20-i686
+/usr/lib/modules/3.19.8-100.fc20.i686+PAE/kernel/drivers/parport
+/usr/lib/perl5/Text
+/sys/devices/virtual/vc/vcsa3/power
+/proc/1961/task/2070/net/rpc/auth.rpcsec.init
+/proc/1161/task/1161/net/rpc/auth.rpcsec.init
+/sys/module/rfkill/parameters
+/proc/2172/task/2177/fd
+/home/user/.color/icc
+/sys/bus/container/drivers
+/proc/912/task/990/net
+/usr/lib/libreoffice/share/config/soffice.cfg/svt
+/usr/share/cups
+/proc/1752
+/usr/share/locale/tw/LC_MESSAGES
+/home/user/Public
+/usr/share/help/es/zenity
+/proc/1719/task/1719/net/stat
+/sys/firmware/memmap/5
+/usr/share/icons/hicolor/64x64/stock
+/usr/share/man/ca@valencia/man1
+/proc/1637/task/1650/net/rpc/auth.unix.gid
+/proc/20/net/rpc/auth.unix.gid
+/proc/2290/task/2316/net/rpc/auth.rpcsec.context
+/usr/share/doc/ethtool
+/usr/share/help/oc/evolution/figures
+/sys/devices/virtual/sound/timer
+/usr/lib/modules/3.11.10-301.fc20.i686+PAE/extra/fs/gfs2
+/usr/share/doc/gstreamer1-plugins-base
+/proc/2290/task/2342/ns
+/proc/1147/net/stat
+/sys/devices/pci0000:00/0000:00:1a.0/usbmon/usbmon3
+/var/lib/yum/yumdb/v
+/var/lib/yum/yumdb/e/023453eec9a2bf4aa7ca484e53a69707b5cecc53-elfutils-libs-0.161-6.fc20-i686
+/usr/lib/modules/3.19.8-100.fc20.i686+PAE/extra/fs/ocfs2/dlm
+/proc/1670/task/1672/attr
+/usr/share/help/el/gnome-bluetooth
+/etc/iscsi
+/proc/2290/task/2408/net/rpc
+/usr/share/doc/libv4l
+/sys/firmware/dmi/entries/255-0
+2 /proc/511/task/511/net/rpc/nfsd.export /sys/class/vc
+2 /var/cache/man/ps /sys/firmware/dmi/entries/255-0
+2 /proc/2035/task/2116/net/rpc /proc/2290/task/2408/net/rpc
+2 /proc/614/net/rpc/auth.rpcsec.context /sys/devices/pci0000:00/0000:00:1a.0/usbmon/usbmon3
+2 /proc/103/task/103/net/rpc/auth.unix.gid /usr/share/cups
+2 /proc/608/net/stat /sys/bus/container/drivers
+2 /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0b /sys/firmware/dmi/entries/255-0
+2 /usr/lib/rpm/platform/ppciseries-linux /usr/share/doc/ethtool
+2 /proc/34/net /etc/iscsi
+2 /proc/2035/task/2116/net/rpc /usr/share/locale/tw/LC_MESSAGES
+2 /proc/1674/task/1675/fd /usr/lib/modules/3.19.8-100.fc20.i686+PAE/kernel/drivers/parport
+2 /var/lib/yum/yumdb/g/112cbc2cc7a7a5ee0aa6822dc7825c09c19d0cde-gnome-boxes-3.10.2-3.fc20-i686 /usr/share/doc/libv4l
+2 /proc/2077/net/rpc/nfs4.nametoid /usr/lib/modules/3.19.8-100.fc20.i686+PAE/kernel/drivers/parport
+2 /proc/1578/net/rpc/auth.rpcsec.context /proc/511/task/511/net/rpc/nfsd.export
+2 /var/lib/yum/yumdb/f/e962dd6713d9e57a4a3b04809480c283e0e6cf71-firewalld-0.3.13-1.fc20-noarch /usr/share/icons/hicolor/64x64/stock
+2 /usr/lib/python2.7/site-packages/gnome_abrt/url /proc/20/net/rpc/auth.unix.gid
+2 /sys/kernel/slab/:t-0000768/cgroup /proc/1719/task/1719/net/stat
+2 /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0b /proc/1161/task/1161/net/rpc/auth.rpcsec.init
+2 /etc/plymouth /sys/firmware/dmi/entries/255-0
+2 /proc/2290/task/2321/net/rpc/auth.unix.ip /sys/devices/virtual/vc/vcsa3/power
+2 /proc/103/task/103/net/rpc/auth.unix.gid /usr/share/help/es/zenity
+2 /proc/608/net/stat /proc/1961/task/2070/net/rpc/auth.rpcsec.init
+2 /var/cache/man/ps /usr/share/doc/gstreamer1-plugins-base
+2 /var/cache/man/ps /proc/1637/task/1650/net/rpc/auth.unix.gid
+2 /sys/module/iTCO_vendor_support/holders /proc/1719/task/1719/net/stat
+2 /proc/34/net /usr/share/cups
+2 /sys/devices/LNXSYSTM:00/LNXCPU:02/power /usr/lib/libreoffice/share/config/soffice.cfg/svt
+2 /usr/share/brasero/icons/hicolor/32x32/actions /proc/1637/task/1650/net/rpc/auth.unix.gid
+2 /proc/614/net/rpc/auth.rpcsec.context /sys/firmware/dmi/entries/255-0
+2 /run/udev/links/\x2fdisk\x2fby-id\x2fwwn-0x5000c500502b35c2-part1 /home/user/.color/icc
+2 /var/lib/yum/yumdb/f/e962dd6713d9e57a4a3b04809480c283e0e6cf71-firewalld-0.3.13-1.fc20-noarch /usr/lib/perl5/Text
+2 /proc/21306/task/21306/net/rpc/auth.rpcsec.context /sys/module/rfkill/parameters
+2 /usr/share/locale/sr@ijekavianlatin /proc/912/task/990/net
+2 /usr/share/locale/ber/LC_MESSAGES /proc/1637/task/1650/net/rpc/auth.unix.gid
+2 /sys/module/iTCO_vendor_support/holders /sys/devices/system/cpu/cpu2/thermal_throttle
+2 /proc/1688/task/1695/attr /sys/module/rfkill/parameters
+2 /usr/share/locale/ku/LC_MESSAGES /proc/2290/task/2408/net/rpc
+2 /proc/511/task/511/net/rpc/nfsd.export /proc/1719/task/1719/net/stat
+2 /sys/module/iTCO_vendor_support/holders /proc/511/task/511/net/rpc/nfsd.export
+2 /proc/21306/task/21306/net/rpc/auth.rpcsec.context /proc/1161/task/1161/net/rpc/auth.rpcsec.init
+2 /usr/share/libkkc/rules/azik/rom-kana /usr/share/help/el/gnome-bluetooth
+2 /proc/34/net /sys/bus/container/drivers
+2 /usr/share/doc/webkitgtk3 /proc/1961/task/2070/net/rpc/auth.rpcsec.init
+2 /usr/lib/modules/3.11.10-301.fc20.i686+PAE/kernel/drivers/input/gameport /proc/1752
+2 /proc/2290/task/2409/attr /usr/lib/modules/3.19.8-100.fc20.i686+PAE/extra/fs/ocfs2/dlm
+2 /usr/share/doc/rsync/support /proc/1637/task/1650/net/rpc/auth.unix.gid
+2 /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0b /proc/20/net/rpc/auth.unix.gid
+2 /usr/lib/rpm/platform/ppciseries-linux /sys/firmware/dmi/entries/255-0
+2 /usr/share/doc/rsync/support /proc/511/task/511/net/rpc/nfsd.export
+2 /usr/lib/modules/3.19.8-100.fc20.i686+PAE/extra/drivers /proc/1161/task/1161/net/rpc/auth.rpcsec.init
+2 /sys/module/iTCO_vendor_support/holders /proc/21/task/21/net/rpc/nfsd.fh
+2 /sys/devices/LNXSYSTM:00/LNXCPU:02/power /proc/1670/task/1672/attr
+2 /proc/614/net/rpc/auth.rpcsec.context /usr/share/zoneinfo/right/America/Argentina
+2 /usr/share/brasero/icons/hicolor/32x32/actions /var/lib/yum/yumdb/v
+2 /usr/lib/rpm/platform/ppciseries-linux /usr/share/zoneinfo/right/America/Argentina
+2 /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0b /sys/devices/pci0000:00/0000:00:1a.0/usbmon/usbmon3
+2 /proc/511/task/511/net/rpc/nfsd.export /etc/iscsi
+2 /var/lib/yum/yumdb/p/9a2cd2db97b771e7bb14921d6095d13253a176a3-python-augeas-0.5.0-1.fc20-noarch /proc/1637/task/1650/net/rpc/auth.unix.gid
+2 /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0b /usr/share/man/ca@valencia/man1
+2 /usr/share/brasero/icons/hicolor/32x32/actions /proc/2290/task/2408/net/rpc
+2 /var/cache/man/ps /proc/20/net/rpc/auth.unix.gid
+2 /proc/1674/task/1675/fd /proc/1752
+2 /proc/1674/task/1675/fd /sys/module/rfkill/parameters
+2 /usr/share/adium/message-styles/Classic.AdiumMessageStyle /usr/lib/libreoffice/share/config/soffice.cfg/svt
+2 /proc/511/task/511/net/rpc/nfsd.export /proc/1637/task/1650/net/rpc/auth.unix.gid
+2 /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0b /usr/share/doc/ethtool
+2 /usr/share/locale/ku/LC_MESSAGES /usr/share/doc/libv4l
+2 /var/lib/yum/yumdb/p/9a2cd2db97b771e7bb14921d6095d13253a176a3-python-augeas-0.5.0-1.fc20-noarch /proc/1161/task/1161/net/rpc/auth.rpcsec.init
+2 /run/udev/links/\x2fdisk\x2fby-id\x2fwwn-0x5000c500502b35c2-part1 /sys/devices/virtual/sound/timer
+2 /proc/617/task/626/net/stat /proc/2290/task/2316/net/rpc/auth.rpcsec.context
+2 /usr/share/icons/hicolor/256x256/apps /sys/devices/pci0000:00/0000:00:1a.0/usbmon/usbmon3
+2 /usr/share/locale/ber/LC_MESSAGES /proc/1147/net/stat
+2 /proc/2290/task/2321/net/rpc/auth.unix.ip /usr/lib/python3.3/site-packages/orca/scripts/apps/Eclipse/__pycache__
+2 /proc/860/task/860/net/rpc/auth.rpcsec.init /sys/devices/pci0000:00/0000:00:1a.0/usbmon/usbmon3
+2 /proc/22/task/22/net/rpc /proc/1752
+2 /proc/617/task/626/net/stat /usr/lib/modules/3.11.10-301.fc20.i686+PAE/extra/fs/gfs2
+2 /usr/share/brasero/icons/hicolor/32x32/actions /usr/share/zoneinfo/right/America/Argentina
+2 /proc/617/task/626/net/stat /usr/share/icons/hicolor/64x64/stock
+2 /proc/860/task/860/net/rpc/auth.rpcsec.init /sys/module/ip6_tables
+2 /proc/2077/net/rpc/nfs4.nametoid /sys/devices/pci0000:00/0000:00:1f.2/ata1/host0/target0:0:0/0:0:0:0/scsi_generic/sg0
+2 /var/lib/yum/yumdb/f/e962dd6713d9e57a4a3b04809480c283e0e6cf71-firewalld-0.3.13-1.fc20-noarch /proc/1719/task/1719/net/stat
+2 /usr/share/doc/webkitgtk3 /usr/lib/libreoffice/share/config/soffice.cfg/svt
+2 /proc/467/task/467/net/rpc/nfsd.fh /usr/lib/libreoffice/share/config/soffice.cfg/svt
+2 /proc/22/task/22/net/rpc /proc/1808/attr
+2 /proc/860/task/860/net/rpc/auth.rpcsec.init /usr/lib/python3.3/site-packages/orca/scripts/apps/Eclipse/__pycache__
+2 /usr/lib/python2.7/site-packages/gnome_abrt/url /proc/20/net/rpc/auth.unix.gid
+2 /proc/617/task/626/net/stat /usr/lib/modules/3.19.8-100.fc20.i686+PAE/kernel/drivers/parport
+2 /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0b /sys/bus/container/drivers
+2 /run/udev/links/\x2fdisk\x2fby-id\x2fwwn-0x5000c500502b35c2-part1 /var/lib/yum/yumdb/e/023453eec9a2bf4aa7ca484e53a69707b5cecc53-elfutils-libs-0.161-6.fc20-i686
+2 /proc/1578/net/rpc/auth.rpcsec.context /home/user/Public
+2 /proc/467/task/467/net/rpc/nfsd.fh /proc/511/task/511/net/rpc/nfsd.export
+2 /proc/2290/task/2321/net/rpc/auth.unix.ip /sys/module/ip6_tables
+2 /usr/share/locale/mun/LC_MESSAGES /usr/share/man/ca@valencia/man1
+2 /var/cache/man/ps /usr/lib/libreoffice/share/config/soffice.cfg/svt
+2 /proc/614/net/rpc/auth.rpcsec.context /proc/1637/task/1650/net/rpc/auth.unix.gid
+2 /usr/share/locale/arw/LC_MESSAGES /proc/2290/task/2342/ns
+2 /proc/22/task/22/net/rpc /usr/share/locale/tw/LC_MESSAGES
+2 /proc/2077/net/rpc/nfs4.nametoid /proc/1161/task/1161/net/rpc/auth.rpcsec.init
+2 /run/udev/links/\x2fdisk\x2fby-id\x2fwwn-0x5000c500502b35c2-part1 /usr/lib/python3.3/site-packages/orca/scripts/apps/Eclipse/__pycache__
+2 /usr/share/locale/arw/LC_MESSAGES /sys/devices/system/cpu/cpu2/thermal_throttle
+-1 

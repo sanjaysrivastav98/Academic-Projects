@@ -1,0 +1,43 @@
+#! c:/iverilog-x86/bin/vvp
+:ivl_version "10.0 (stable)" "(v10_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_00363780 .scope module, "parity_generator" "parity_generator" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "X"
+    .port_info 1 /OUTPUT 5 "Y"
+L_0036dca8 .functor XOR 1, L_0068be28, L_0068be80, C4<0>, C4<0>;
+L_0036dcf0 .functor XOR 1, L_0068bed8, L_0068bf30, C4<0>, C4<0>;
+L_0036dda0 .functor XOR 1, L_0068bfe0, L_0068c038, C4<0>, C4<0>;
+o0065dc4c .functor BUFZ 4, C4<zzzz>; HiZ drive
+v00363850_0 .net "X", 3 0, o0065dc4c;  0 drivers
+v003638a8_0 .net "Y", 4 0, L_0068c0e8;  1 drivers
+v00363900_0 .net *"_s11", 0 0, L_0068bed8;  1 drivers
+v0036d6f0_0 .net *"_s13", 0 0, L_0068bf30;  1 drivers
+v0036d748_0 .net *"_s14", 0 0, L_0036dcf0;  1 drivers
+v0036d7a0_0 .net *"_s20", 0 0, L_0068bfe0;  1 drivers
+v0036d7f8_0 .net *"_s22", 0 0, L_0068c038;  1 drivers
+v0036d850_0 .net *"_s23", 0 0, L_0036dda0;  1 drivers
+v0068bc70_0 .net *"_s26", 0 0, L_0068c090;  1 drivers
+v0068bcc8_0 .net *"_s3", 0 0, L_0068be28;  1 drivers
+v0068bd20_0 .net *"_s5", 0 0, L_0068be80;  1 drivers
+v0068bd78_0 .net *"_s6", 0 0, L_0036dca8;  1 drivers
+v0068bdd0_0 .net "temp", 2 0, L_0068bf88;  1 drivers
+L_0068be28 .part o0065dc4c, 3, 1;
+L_0068be80 .part o0065dc4c, 2, 1;
+L_0068bed8 .part L_0068bf88, 0, 1;
+L_0068bf30 .part o0065dc4c, 1, 1;
+L_0068bf88 .concat8 [ 1 1 1 0], L_0036dca8, L_0036dcf0, L_0036dda0;
+L_0068bfe0 .part L_0068bf88, 1, 1;
+L_0068c038 .part o0065dc4c, 0, 1;
+L_0068c090 .part L_0068bf88, 2, 1;
+L_0068c0e8 .concat [ 1 4 0 0], L_0068c090, o0065dc4c;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "parity_generator.v";

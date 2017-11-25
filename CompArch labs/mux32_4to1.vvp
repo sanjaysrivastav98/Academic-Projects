@@ -1,0 +1,97 @@
+#! c:/iverilog-x64/bin/vvp
+:ivl_version "10.1 (stable)" "(v10_1_1)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0000000000966600 .scope module, "mux32_4to1" "mux32_4to1" 2 2;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 32 "regData"
+    .port_info 1 /INPUT 1024 "q"
+    .port_info 2 /INPUT 5 "reg_no"
+v000000000085d500_0 .net *"_s0", 9 0, L_00000000008b0ed0;  1 drivers
+L_00000000008b3098 .functor BUFT 1, C4<00000>, C4<0>, C4<0>, C4<0>;
+v000000000085c920_0 .net *"_s3", 4 0, L_00000000008b3098;  1 drivers
+L_00000000008b30e0 .functor BUFT 1, C4<0000100000>, C4<0>, C4<0>, C4<0>;
+v000000000085c9c0_0 .net/2s *"_s4", 9 0, L_00000000008b30e0;  1 drivers
+v000000000085d280_0 .net *"_s7", 9 0, L_00000000008b1e70;  1 drivers
+o0000000000860328 .functor BUFZ 1024, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v000000000085d460_0 .net "q", 1023 0, o0000000000860328;  0 drivers
+v000000000085cba0_0 .net "regData", 31 0, L_00000000008b2550;  1 drivers
+o0000000000860388 .functor BUFZ 5, C4<zzzzz>; HiZ drive
+v000000000085d640_0 .net "reg_no", 4 0, o0000000000860388;  0 drivers
+L_00000000008b0ed0 .concat [ 5 5 0 0], o0000000000860388, L_00000000008b3098;
+L_00000000008b1e70 .arith/mult 10, L_00000000008b0ed0, L_00000000008b30e0;
+L_00000000008b2550 .part/v o0000000000860328, L_00000000008b1e70, 32;
+S_0000000000966780 .scope module, "mux4_1" "mux4_1" 3 1;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 1 "regData"
+    .port_info 1 /INPUT 1 "q1"
+    .port_info 2 /INPUT 1 "q2"
+    .port_info 3 /INPUT 1 "q3"
+    .port_info 4 /INPUT 1 "q4"
+    .port_info 5 /INPUT 2 "reg_no"
+L_0000000000966900 .functor AND 1, L_00000000008b0f70, L_00000000008b1fb0, C4<1>, C4<1>;
+o00000000008608f8 .functor BUFZ 1, C4<z>; HiZ drive
+L_000000000090b170 .functor AND 1, L_0000000000966900, o00000000008608f8, C4<1>, C4<1>;
+L_000000000090b6b0 .functor NOT 1, L_00000000008b1330, C4<0>, C4<0>, C4<0>;
+L_000000000090b2c0 .functor AND 1, L_00000000008b10b0, L_000000000090b6b0, C4<1>, C4<1>;
+o00000000008608c8 .functor BUFZ 1, C4<z>; HiZ drive
+L_000000000090b640 .functor AND 1, L_000000000090b2c0, o00000000008608c8, C4<1>, C4<1>;
+L_000000000090b410 .functor OR 1, L_000000000090b170, L_000000000090b640, C4<0>, C4<0>;
+L_000000000090b4f0 .functor NOT 1, L_00000000008b1290, C4<0>, C4<0>, C4<0>;
+L_000000000090b560 .functor AND 1, L_000000000090b4f0, L_00000000008b16f0, C4<1>, C4<1>;
+o0000000000860898 .functor BUFZ 1, C4<z>; HiZ drive
+L_000000000090b5d0 .functor AND 1, L_000000000090b560, o0000000000860898, C4<1>, C4<1>;
+L_000000000090b720 .functor OR 1, L_000000000090b410, L_000000000090b5d0, C4<0>, C4<0>;
+L_000000000090b3a0 .functor NOT 1, L_00000000008b13d0, C4<0>, C4<0>, C4<0>;
+L_000000000090b800 .functor NOT 1, L_00000000008b2370, C4<0>, C4<0>, C4<0>;
+L_000000000090b480 .functor AND 1, L_000000000090b3a0, L_000000000090b800, C4<1>, C4<1>;
+o0000000000860868 .functor BUFZ 1, C4<z>; HiZ drive
+L_000000000090b100 .functor AND 1, L_000000000090b480, o0000000000860868, C4<1>, C4<1>;
+L_000000000090b790 .functor OR 1, L_000000000090b720, L_000000000090b100, C4<0>, C4<0>;
+v000000000085cd80_0 .net *"_s1", 0 0, L_00000000008b0f70;  1 drivers
+v000000000085cec0_0 .net *"_s11", 0 0, L_00000000008b1330;  1 drivers
+v000000000085d1e0_0 .net *"_s12", 0 0, L_000000000090b6b0;  1 drivers
+v000000000085d140_0 .net *"_s14", 0 0, L_000000000090b2c0;  1 drivers
+v000000000085d320_0 .net *"_s16", 0 0, L_000000000090b640;  1 drivers
+v000000000085d5a0_0 .net *"_s18", 0 0, L_000000000090b410;  1 drivers
+v00000000008b1dd0_0 .net *"_s21", 0 0, L_00000000008b1290;  1 drivers
+v00000000008b1150_0 .net *"_s22", 0 0, L_000000000090b4f0;  1 drivers
+v00000000008b2870_0 .net *"_s25", 0 0, L_00000000008b16f0;  1 drivers
+v00000000008b1470_0 .net *"_s26", 0 0, L_000000000090b560;  1 drivers
+v00000000008b18d0_0 .net *"_s28", 0 0, L_000000000090b5d0;  1 drivers
+v00000000008b1510_0 .net *"_s3", 0 0, L_00000000008b1fb0;  1 drivers
+v00000000008b0bb0_0 .net *"_s30", 0 0, L_000000000090b720;  1 drivers
+v00000000008b15b0_0 .net *"_s33", 0 0, L_00000000008b13d0;  1 drivers
+v00000000008b0e30_0 .net *"_s34", 0 0, L_000000000090b3a0;  1 drivers
+v00000000008b1a10_0 .net *"_s37", 0 0, L_00000000008b2370;  1 drivers
+v00000000008b0d90_0 .net *"_s38", 0 0, L_000000000090b800;  1 drivers
+v00000000008b1790_0 .net *"_s4", 0 0, L_0000000000966900;  1 drivers
+v00000000008b1f10_0 .net *"_s40", 0 0, L_000000000090b480;  1 drivers
+v00000000008b0c50_0 .net *"_s42", 0 0, L_000000000090b100;  1 drivers
+v00000000008b1ab0_0 .net *"_s6", 0 0, L_000000000090b170;  1 drivers
+v00000000008b20f0_0 .net *"_s9", 0 0, L_00000000008b10b0;  1 drivers
+v00000000008b1bf0_0 .net "q1", 0 0, o0000000000860868;  0 drivers
+v00000000008b1010_0 .net "q2", 0 0, o0000000000860898;  0 drivers
+v00000000008b29b0_0 .net "q3", 0 0, o00000000008608c8;  0 drivers
+v00000000008b0cf0_0 .net "q4", 0 0, o00000000008608f8;  0 drivers
+v00000000008b11f0_0 .net "regData", 0 0, L_000000000090b790;  1 drivers
+o0000000000860958 .functor BUFZ 2, C4<zz>; HiZ drive
+v00000000008b1650_0 .net "reg_no", 1 0, o0000000000860958;  0 drivers
+L_00000000008b0f70 .part o0000000000860958, 1, 1;
+L_00000000008b1fb0 .part o0000000000860958, 0, 1;
+L_00000000008b10b0 .part o0000000000860958, 1, 1;
+L_00000000008b1330 .part o0000000000860958, 0, 1;
+L_00000000008b1290 .part o0000000000860958, 1, 1;
+L_00000000008b16f0 .part o0000000000860958, 0, 1;
+L_00000000008b13d0 .part o0000000000860958, 0, 1;
+L_00000000008b2370 .part o0000000000860958, 1, 1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "mux32_4to1.v";
+    "./mux4_1.v";

@@ -1,0 +1,42 @@
+1 20
+/proc/100/task/100
+/proc/sys/net/ipv6/conf/default
+/proc/1834/task/1838/net/rpc/nfsd.fh
+/sys/fs/selinux/class/security/perms
+/proc/11/attr
+/usr/lib/modules/3.19.8-100.fc20.i686+PAE/kernel/drivers/net/wireless/rtlwifi/rtl8723com
+/var/lib/yum/yumdb/i/b7678fea06c55d11c0452fcdcb228de8f391e9f1-iwl3160-firmware-25.17.12.0-48.fc20-noarch
+/proc/2019/task/2019/fd
+/proc/1752/task/1755/net/rpc/auth.rpcsec.context
+/usr/share/rygel/icons/48x48
+/proc/40/task/40/net/rpc/auth.unix.ip
+/var/lib/yum/yumdb/p/ae068011d96ef2ffc8a4d8fc8c7c94782521d1fb-perl-Time-HiRes-1.9726-1.fc20-i686
+/usr/lib/modules/3.11.10-301.fc20.i686+PAE/kernel/fs/fat
+/usr/share/icons/hicolor/96x96/emotes
+/proc/2035/task/2118/net/rpc/auth.unix.gid
+/usr/lib/rpm/platform/alphapca56-linux
+/proc/21364/task/21377/net/rpc/nfsd.export
+/proc/2290/task/2408/net/stat
+/proc/556/task/556/net/rpc/nfsd.fh
+/sys/bus/pci_express/drivers/pcie_pme
+2 /var/lib/yum/yumdb/i/b7678fea06c55d11c0452fcdcb228de8f391e9f1-iwl3160-firmware-25.17.12.0-48.fc20-noarch /usr/lib/modules/3.11.10-301.fc20.i686+PAE/kernel/fs/fat
+2 /proc/100/task/100 /usr/lib/rpm/platform/alphapca56-linux
+2 /sys/fs/selinux/class/security/perms /usr/lib/modules/3.11.10-301.fc20.i686+PAE/kernel/fs/fat
+2 /proc/100/task/100 /var/lib/yum/yumdb/p/ae068011d96ef2ffc8a4d8fc8c7c94782521d1fb-perl-Time-HiRes-1.9726-1.fc20-i686
+2 /sys/fs/selinux/class/security/perms /usr/lib/modules/3.11.10-301.fc20.i686+PAE/kernel/fs/fat
+2 /proc/11/attr /sys/bus/pci_express/drivers/pcie_pme
+2 /proc/sys/net/ipv6/conf/default /proc/556/task/556/net/rpc/nfsd.fh
+2 /proc/100/task/100 /usr/share/icons/hicolor/96x96/emotes
+2 /sys/fs/selinux/class/security/perms /var/lib/yum/yumdb/p/ae068011d96ef2ffc8a4d8fc8c7c94782521d1fb-perl-Time-HiRes-1.9726-1.fc20-i686
+2 /proc/sys/net/ipv6/conf/default /sys/bus/pci_express/drivers/pcie_pme
+2 /proc/2019/task/2019/fd /proc/556/task/556/net/rpc/nfsd.fh
+2 /var/lib/yum/yumdb/i/b7678fea06c55d11c0452fcdcb228de8f391e9f1-iwl3160-firmware-25.17.12.0-48.fc20-noarch /proc/2035/task/2118/net/rpc/auth.unix.gid
+2 /proc/2019/task/2019/fd /proc/40/task/40/net/rpc/auth.unix.ip
+2 /sys/fs/selinux/class/security/perms /var/lib/yum/yumdb/p/ae068011d96ef2ffc8a4d8fc8c7c94782521d1fb-perl-Time-HiRes-1.9726-1.fc20-i686
+2 /usr/lib/modules/3.19.8-100.fc20.i686+PAE/kernel/drivers/net/wireless/rtlwifi/rtl8723com /usr/lib/modules/3.11.10-301.fc20.i686+PAE/kernel/fs/fat
+2 /var/lib/yum/yumdb/i/b7678fea06c55d11c0452fcdcb228de8f391e9f1-iwl3160-firmware-25.17.12.0-48.fc20-noarch /proc/556/task/556/net/rpc/nfsd.fh
+2 /sys/fs/selinux/class/security/perms /proc/21364/task/21377/net/rpc/nfsd.export
+2 /proc/sys/net/ipv6/conf/default /usr/share/icons/hicolor/96x96/emotes
+2 /usr/share/rygel/icons/48x48 /proc/2035/task/2118/net/rpc/auth.unix.gid
+2 /proc/1752/task/1755/net/rpc/auth.rpcsec.context /sys/bus/pci_express/drivers/pcie_pme
+-1 

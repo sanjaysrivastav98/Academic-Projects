@@ -1,0 +1,49 @@
+#! c:/iverilog-x64/bin/vvp
+:ivl_version "10.1 (stable)" "(v10_1_1)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_00000000010c65c0 .scope module, "ALUControlUnit" "ALUControlUnit" 2 1;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 3 "Op"
+    .port_info 1 /INPUT 6 "Func"
+    .port_info 2 /INPUT 1 "ALUOp0"
+    .port_info 3 /INPUT 1 "ALUOp1"
+L_00000000010ceda0 .functor OR 1, L_000000000290f0e0, L_000000000290f040, C4<0>, C4<0>;
+o00000000028b7008 .functor BUFZ 1, C4<z>; HiZ drive
+L_00000000010cee10 .functor AND 1, o00000000028b7008, L_00000000010ceda0, C4<1>, C4<1>;
+L_00000000010cee80 .functor NOT 1, o00000000028b7008, C4<0>, C4<0>, C4<0>;
+L_00000000010ceef0 .functor NOT 1, L_000000000290f540, C4<0>, C4<0>, C4<0>;
+L_00000000010cef60 .functor OR 1, L_00000000010cee80, L_00000000010ceef0, C4<0>, C4<0>;
+L_0000000002911590 .functor AND 1, o00000000028b7008, L_000000000290f220, C4<1>, C4<1>;
+o00000000028b6fd8 .functor BUFZ 1, C4<z>; HiZ drive
+L_0000000002911600 .functor OR 1, o00000000028b6fd8, L_0000000002911590, C4<0>, C4<0>;
+v00000000010c6740_0 .net "ALUOp0", 0 0, o00000000028b6fd8;  0 drivers
+v00000000010c67e0_0 .net "ALUOp1", 0 0, o00000000028b7008;  0 drivers
+o00000000028b7038 .functor BUFZ 6, C4<zzzzzz>; HiZ drive
+v00000000010c6880_0 .net "Func", 5 0, o00000000028b7038;  0 drivers
+v00000000010c6920_0 .net "Op", 2 0, L_000000000290f180;  1 drivers
+v000000000290f720_0 .net *"_s12", 0 0, L_00000000010cee80;  1 drivers
+v000000000290f5e0_0 .net *"_s15", 0 0, L_000000000290f540;  1 drivers
+v000000000290ee60_0 .net *"_s16", 0 0, L_00000000010ceef0;  1 drivers
+v000000000290f680_0 .net *"_s18", 0 0, L_00000000010cef60;  1 drivers
+v000000000290ef00_0 .net *"_s24", 0 0, L_000000000290f220;  1 drivers
+v000000000290f2c0_0 .net *"_s25", 0 0, L_0000000002911590;  1 drivers
+v000000000290f860_0 .net *"_s27", 0 0, L_0000000002911600;  1 drivers
+v000000000290f9a0_0 .net *"_s3", 0 0, L_000000000290f0e0;  1 drivers
+v000000000290efa0_0 .net *"_s5", 0 0, L_000000000290f040;  1 drivers
+v000000000290f7c0_0 .net *"_s6", 0 0, L_00000000010ceda0;  1 drivers
+v000000000290f400_0 .net *"_s8", 0 0, L_00000000010cee10;  1 drivers
+L_000000000290f0e0 .part o00000000028b7038, 3, 1;
+L_000000000290f040 .part o00000000028b7038, 0, 1;
+L_000000000290f540 .part o00000000028b7038, 2, 1;
+L_000000000290f180 .concat8 [ 1 1 1 0], L_00000000010cee10, L_00000000010cef60, L_0000000002911600;
+L_000000000290f220 .part o00000000028b7038, 1, 1;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "ALUControlUnit.v";

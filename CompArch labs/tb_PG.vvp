@@ -1,0 +1,66 @@
+#! c:/iverilog-x86/bin/vvp
+:ivl_version "10.0 (stable)" "(v10_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_00a4c838 .scope module, "tb_PG" "tb_PG" 2 3;
+ .timescale 0 0;
+v021e1a28_0 .var "X", 3 0;
+v021e1a80_0 .net "Y", 4 0, L_021e1d98;  1 drivers
+S_00a4e108 .scope module, "p" "parity_generator" 2 7, 3 1 0, S_00a4c838;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "X"
+    .port_info 1 /OUTPUT 5 "Y"
+L_00a43830 .functor XOR 1, L_021e1ad8, L_021e1b30, C4<0>, C4<0>;
+L_00a438e0 .functor XOR 1, L_021e1b88, L_021e1be0, C4<0>, C4<0>;
+L_00a43928 .functor XOR 1, L_021e1c90, L_021e1ce8, C4<0>, C4<0>;
+v00a4bef8_0 .net "X", 3 0, v021e1a28_0;  1 drivers
+v00a4c908_0 .net "Y", 4 0, L_021e1d98;  alias, 1 drivers
+v00a4c960_0 .net *"_s11", 0 0, L_021e1b88;  1 drivers
+v00a4e1d8_0 .net *"_s13", 0 0, L_021e1be0;  1 drivers
+v00a4e230_0 .net *"_s14", 0 0, L_00a438e0;  1 drivers
+v00a4e288_0 .net *"_s20", 0 0, L_021e1c90;  1 drivers
+v00a43780_0 .net *"_s22", 0 0, L_021e1ce8;  1 drivers
+v00a437d8_0 .net *"_s23", 0 0, L_00a43928;  1 drivers
+v021e1870_0 .net *"_s26", 0 0, L_021e1d40;  1 drivers
+v021e18c8_0 .net *"_s3", 0 0, L_021e1ad8;  1 drivers
+v021e1920_0 .net *"_s5", 0 0, L_021e1b30;  1 drivers
+v021e1978_0 .net *"_s6", 0 0, L_00a43830;  1 drivers
+v021e19d0_0 .net "temp", 2 0, L_021e1c38;  1 drivers
+L_021e1ad8 .part v021e1a28_0, 3, 1;
+L_021e1b30 .part v021e1a28_0, 2, 1;
+L_021e1b88 .part L_021e1c38, 0, 1;
+L_021e1be0 .part v021e1a28_0, 1, 1;
+L_021e1c38 .concat8 [ 1 1 1 0], L_00a43830, L_00a438e0, L_00a43928;
+L_021e1c90 .part L_021e1c38, 1, 1;
+L_021e1ce8 .part v021e1a28_0, 0, 1;
+L_021e1d40 .part L_021e1c38, 2, 1;
+L_021e1d98 .concat [ 1 4 0 0], L_021e1d40, v021e1a28_0;
+    .scope S_00a4c838;
+T_0 ;
+    %vpi_call 2 10 "$monitor", $time, " X=%4b Y=%5b", v021e1a28_0, v021e1a80_0 {0 0 0};
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 4;
+    %store/vec4 v021e1a28_0, 0, 4;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 4;
+    %store/vec4 v021e1a28_0, 0, 4;
+    %delay 10, 0;
+    %pushi/vec4 15, 0, 4;
+    %store/vec4 v021e1a28_0, 0, 4;
+    %delay 10, 0;
+    %pushi/vec4 13, 0, 4;
+    %store/vec4 v021e1a28_0, 0, 4;
+    %delay 10, 0;
+    %vpi_call 2 16 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tb_PG.v";
+    "./parity_generator.v";

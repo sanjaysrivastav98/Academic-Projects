@@ -1,0 +1,77 @@
+#! c:/iverilog-x86/bin/vvp
+:ivl_version "10.0 (stable)" "(v10_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_007b3780 .scope module, "mux4_1" "mux4_1" 2 1;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 1 "regData"
+    .port_info 1 /INPUT 1 "q1"
+    .port_info 2 /INPUT 1 "q2"
+    .port_info 3 /INPUT 1 "q3"
+    .port_info 4 /INPUT 1 "q4"
+    .port_info 5 /INPUT 2 "reg_no"
+L_007b3850 .functor AND 1, L_01f509b8, L_01f50a10, C4<1>, C4<1>;
+o01f1fea4 .functor BUFZ 1, C4<z>; HiZ drive
+L_007b3898 .functor AND 1, L_007b3850, o01f1fea4, C4<1>, C4<1>;
+L_01f53458 .functor NOT 1, L_01f50ac0, C4<0>, C4<0>, C4<0>;
+L_01f534a0 .functor AND 1, L_01f50a68, L_01f53458, C4<1>, C4<1>;
+o01f1fe8c .functor BUFZ 1, C4<z>; HiZ drive
+L_01f534e8 .functor AND 1, L_01f534a0, o01f1fe8c, C4<1>, C4<1>;
+L_01f53530 .functor OR 1, L_007b3898, L_01f534e8, C4<0>, C4<0>;
+L_01f53590 .functor NOT 1, L_01f50b18, C4<0>, C4<0>, C4<0>;
+L_01f535d8 .functor AND 1, L_01f53590, L_01f50b70, C4<1>, C4<1>;
+o01f1fe74 .functor BUFZ 1, C4<z>; HiZ drive
+L_01f53620 .functor AND 1, L_01f535d8, o01f1fe74, C4<1>, C4<1>;
+L_01f53668 .functor OR 1, L_01f53530, L_01f53620, C4<0>, C4<0>;
+L_01f536b0 .functor NOT 1, L_01f50bc8, C4<0>, C4<0>, C4<0>;
+L_01f536f8 .functor NOT 1, L_01f50c20, C4<0>, C4<0>, C4<0>;
+L_01f53740 .functor AND 1, L_01f536b0, L_01f536f8, C4<1>, C4<1>;
+o01f1fe5c .functor BUFZ 1, C4<z>; HiZ drive
+L_01f53788 .functor AND 1, L_01f53740, o01f1fe5c, C4<1>, C4<1>;
+L_01f537d0 .functor OR 1, L_01f53668, L_01f53788, C4<0>, C4<0>;
+v007bddf8_0 .net *"_s1", 0 0, L_01f509b8;  1 drivers
+v01f50070_0 .net *"_s11", 0 0, L_01f50ac0;  1 drivers
+v01f500c8_0 .net *"_s12", 0 0, L_01f53458;  1 drivers
+v01f50120_0 .net *"_s14", 0 0, L_01f534a0;  1 drivers
+v01f50178_0 .net *"_s16", 0 0, L_01f534e8;  1 drivers
+v01f501d0_0 .net *"_s18", 0 0, L_01f53530;  1 drivers
+v01f50228_0 .net *"_s21", 0 0, L_01f50b18;  1 drivers
+v01f50280_0 .net *"_s22", 0 0, L_01f53590;  1 drivers
+v01f502d8_0 .net *"_s25", 0 0, L_01f50b70;  1 drivers
+v01f50330_0 .net *"_s26", 0 0, L_01f535d8;  1 drivers
+v01f50388_0 .net *"_s28", 0 0, L_01f53620;  1 drivers
+v01f503e0_0 .net *"_s3", 0 0, L_01f50a10;  1 drivers
+v01f50438_0 .net *"_s30", 0 0, L_01f53668;  1 drivers
+v01f50490_0 .net *"_s33", 0 0, L_01f50bc8;  1 drivers
+v01f504e8_0 .net *"_s34", 0 0, L_01f536b0;  1 drivers
+v01f50540_0 .net *"_s37", 0 0, L_01f50c20;  1 drivers
+v01f50598_0 .net *"_s38", 0 0, L_01f536f8;  1 drivers
+v01f505f0_0 .net *"_s4", 0 0, L_007b3850;  1 drivers
+v01f50648_0 .net *"_s40", 0 0, L_01f53740;  1 drivers
+v01f506a0_0 .net *"_s42", 0 0, L_01f53788;  1 drivers
+v01f506f8_0 .net *"_s6", 0 0, L_007b3898;  1 drivers
+v01f50750_0 .net *"_s9", 0 0, L_01f50a68;  1 drivers
+v01f507a8_0 .net "q1", 0 0, o01f1fe5c;  0 drivers
+v01f50800_0 .net "q2", 0 0, o01f1fe74;  0 drivers
+v01f50858_0 .net "q3", 0 0, o01f1fe8c;  0 drivers
+v01f508b0_0 .net "q4", 0 0, o01f1fea4;  0 drivers
+v01f50908_0 .net "regData", 0 0, L_01f537d0;  1 drivers
+o01f1fed4 .functor BUFZ 2, C4<zz>; HiZ drive
+v01f50960_0 .net "reg_no", 1 0, o01f1fed4;  0 drivers
+L_01f509b8 .part o01f1fed4, 1, 1;
+L_01f50a10 .part o01f1fed4, 0, 1;
+L_01f50a68 .part o01f1fed4, 1, 1;
+L_01f50ac0 .part o01f1fed4, 0, 1;
+L_01f50b18 .part o01f1fed4, 1, 1;
+L_01f50b70 .part o01f1fed4, 0, 1;
+L_01f50bc8 .part o01f1fed4, 0, 1;
+L_01f50c20 .part o01f1fed4, 1, 1;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "mux4_1.v";

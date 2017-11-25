@@ -1,0 +1,26 @@
+#! c:/iverilog-x64/bin/vvp
+:ivl_version "10.1 (stable)" "(v10_1_1)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0000000000fa66d0 .scope module, "bit32AND" "bit32AND" 2 1;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 32 "out"
+    .port_info 1 /INPUT 32 "in1"
+    .port_info 2 /INPUT 32 "in2"
+o0000000002796228 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+o0000000002796258 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+L_00000000027955a0 .functor AND 32, o0000000002796228, o0000000002796258, C4<11111111111111111111111111111111>, C4<11111111111111111111111111111111>;
+v0000000000fa6850_0 .net *"_s2", 31 0, L_00000000027955a0;  1 drivers
+v0000000000fa68f0_0 .net "in1", 31 0, o0000000002796228;  0 drivers
+v0000000000fae5a0_0 .net "in2", 31 0, o0000000002796258;  0 drivers
+v0000000000fae640_0 .net "out", 31 0, L_0000000000fae6e0;  1 drivers
+L_0000000000fae6e0 .part L_00000000027955a0, 0, 32;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "bit32AND.v";

@@ -1,0 +1,119 @@
+$date
+	Tue Sep 05 14:42:13 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module dff_async_clear $end
+$var wire 1 ! clearb $end
+$var wire 1 " clock $end
+$var wire 1 # d $end
+$var reg 1 $ q $end
+$upscope $end
+$scope module tb_Testing $end
+$var wire 1 % q $end
+$var reg 1 & clk $end
+$var reg 1 ' d $end
+$var reg 1 ( rst $end
+$scope module dff $end
+$var wire 1 ( clearb $end
+$var wire 1 & clock $end
+$var wire 1 ' d $end
+$var reg 1 % q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1(
+0'
+0&
+x%
+x$
+z#
+z"
+z!
+$end
+#4
+0(
+1'
+#5
+0%
+1&
+#10
+0&
+#15
+1&
+#20
+0&
+#25
+1&
+#30
+0&
+#35
+1&
+#40
+0&
+#45
+1&
+#50
+0&
+#54
+1(
+#55
+1%
+1&
+#60
+0&
+#65
+1&
+#70
+0&
+#74
+0(
+0'
+#75
+0%
+1&
+#80
+0&
+#85
+1&
+#90
+0&
+#95
+1&
+#100
+0&
+#105
+1&
+#110
+0&
+#115
+1&
+#120
+0&
+#125
+1&
+#130
+0&
+#135
+1&
+#140
+0&
+#145
+1&
+#150
+0&
+#155
+1&
+#160
+0&
+#165
+1&
+#170
+0&
+#174

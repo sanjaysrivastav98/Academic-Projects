@@ -1,0 +1,72 @@
+#! c:/iverilog-x86/bin/vvp
+:ivl_version "10.0 (stable)" "(v10_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_003b5288 .scope module, "tb_testbench" "tb_testbench" 2 3;
+ .timescale 0 0;
+v003ba610_0 .var "a", 0 0;
+v003ba668_0 .var "b", 0 0;
+v003ba6c0_0 .net "f", 0 0, L_0068e8b8;  1 drivers
+v003ba718_0 .var "s", 0 0;
+S_003b5358 .scope module, "mux_gate" "mux2to1_gate" 2 6, 3 1 0, S_003b5288;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "a"
+    .port_info 1 /INPUT 1 "b"
+    .port_info 2 /INPUT 1 "s"
+    .port_info 3 /OUTPUT 1 "f"
+L_003b3938 .functor NOT 1, v003ba718_0, C4<0>, C4<0>, C4<0>;
+L_003b5428 .functor AND 1, v003ba668_0, L_003b3938, C4<1>, C4<1>;
+L_0068e870 .functor AND 1, v003ba610_0, v003ba718_0, C4<1>, C4<1>;
+L_0068e8b8 .functor OR 1, L_0068e870, L_003b5428, C4<0>, C4<0>;
+v003bafc0_0 .net "a", 0 0, v003ba610_0;  1 drivers
+v003bb018_0 .net "b", 0 0, v003ba668_0;  1 drivers
+v003b3780_0 .net "c", 0 0, L_0068e870;  1 drivers
+v003b37d8_0 .net "d", 0 0, L_003b5428;  1 drivers
+v003b3830_0 .net "e", 0 0, L_003b3938;  1 drivers
+v003b3888_0 .net "f", 0 0, L_0068e8b8;  alias, 1 drivers
+v003b38e0_0 .net "s", 0 0, v003ba718_0;  1 drivers
+    .scope S_003b5288;
+T_0 ;
+    %vpi_call 2 10 "$monitor", " ", $time, " a=%b, b=%b, s=%b f=%b", v003ba610_0, v003ba668_0, v003ba718_0, v003ba6c0_0 {0 0 0};
+    %delay 0, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v003ba610_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v003ba668_0, 0, 1;
+    %delay 2, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v003ba718_0, 0, 1;
+    %delay 5, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v003ba718_0, 0, 1;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v003ba610_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v003ba668_0, 0, 1;
+    %delay 15, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v003ba718_0, 0, 1;
+    %delay 20, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v003ba718_0, 0, 1;
+    %delay 100, 0;
+    %vpi_call 2 17 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+    .scope S_003b5288;
+T_1 ;
+    %vpi_call 2 21 "$dumpfile", "testnech.vcd" {0 0 0};
+    %vpi_call 2 22 "$dumpvars" {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tb_testbench.v";
+    "./mux2to1_gate.v";

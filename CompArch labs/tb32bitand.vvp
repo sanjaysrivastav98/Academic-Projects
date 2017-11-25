@@ -1,0 +1,44 @@
+#! c:/iverilog-x86/bin/vvp
+:ivl_version "10.0 (stable)" "(v10_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_007246a0 .scope module, "tb32bitand" "tb32bitand" 2 2;
+ .timescale 0 0;
+v007238a0_0 .var "IN1", 31 0;
+v007238f8_0 .var "IN2", 31 0;
+v0072fd30_0 .net "OUT", 31 0, L_0072fd88;  1 drivers
+S_00724770 .scope module, "a1" "bit32AND" 2 5, 3 1 0, S_007246a0;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 32 "out"
+    .port_info 1 /INPUT 32 "in1"
+    .port_info 2 /INPUT 32 "in2"
+L_00724840 .functor AND 32, v007238a0_0, v007238f8_0, C4<11111111111111111111111111111111>, C4<11111111111111111111111111111111>;
+v0072fb10_0 .net *"_s2", 31 0, L_00724840;  1 drivers
+v00723798_0 .net "in1", 31 0, v007238a0_0;  1 drivers
+v007237f0_0 .net "in2", 31 0, v007238f8_0;  1 drivers
+v00723848_0 .net "out", 31 0, L_0072fd88;  alias, 1 drivers
+L_0072fd88 .part L_00724840, 0, 32;
+    .scope S_007246a0;
+T_0 ;
+    %vpi_call 2 8 "$monitor", "in1=%32h in2=%32h out %32h", v007238a0_0, v007238f8_0, v0072fd30_0 {0 0 0};
+    %pushi/vec4 42405, 0, 32;
+    %store/vec4 v007238a0_0, 0, 32;
+    %pushi/vec4 23130, 0, 32;
+    %store/vec4 v007238f8_0, 0, 32;
+    %delay 100, 0;
+    %pushi/vec4 23130, 0, 32;
+    %store/vec4 v007238a0_0, 0, 32;
+    %delay 400, 0;
+    %vpi_call 2 12 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "tb32bitand.v";
+    "./bit32AND.v";

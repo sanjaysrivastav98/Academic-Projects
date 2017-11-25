@@ -1,0 +1,32 @@
+Consequent	Antecedent 	Support %	Confidence %
+ItemName_Butter Naan	ItemName_Butter Chicken	3.162	82.879
+ItemName_Butter Naan	ItemName_KADHAI PANEER	2.99	79.492
+ItemName_Veg Petty	ItemName_Pastry	2.452	57.943
+ItemName_Veg Petty	ItemName_MIX JUICE	1.14	23.022
+ItemName_Butter Naan	ItemName_Tandury Chicken 1/2	1.239	17.881
+ItemName_Plain Maggi	ItemName_Chese Toast and ItemName_Ice Cream Shake	1.651	7.205
+ItemName_Plain Maggi	ItemName_Masala Dosa	4.825	7.012
+ItemName_Butter Naan	ItemName_COKE MIX 600 ML	8.124	6.79
+ItemName_Plain Maggi	ItemName_Ice Cream Shake	12.937	6.435
+ItemName_CHIPS	ItemName_OREO	1.23	6.0
+ItemName_Plain Maggi	ItemName_Chese Toast	11.889	5.778
+ItemName_Veg Petty	ItemName_BINOG CHIP @20	1.716	5.496
+ItemName_Plain Maggi	ItemName_Fried Maggi	2.295	5.451
+ItemName_Veg Petty	ItemName_BINOG CHIP @10	1.581	5.188
+ItemName_Plain Maggi	ItemName_COKE MIX 600 ML	8.124	5.174
+ItemName_Plain Maggi	ItemName_FUNGAMA	1.21	5.085
+ItemName_Plain Maggi	ItemName_DEW MIX	2.914	5.067
+ItemName_Butter Naan	ItemName_DEW MIX	2.914	4.926
+ItemName_Veg Petty	ItemName_SAMOSA CHAT	3.084	4.854
+ItemName_Plain Maggi	ItemName_Chese Burger	1.96	4.812
+ItemName_Plain Maggi	ItemName_Paneer Franky	2.182	4.793
+ItemName_Plain Maggi	ItemName_PULPY ORANGE	9.892	4.768
+ItemName_CAKE SANDWICH	ItemName_OREO	1.23	4.667
+ItemName_Plain Maggi	ItemName_Pasta	2.299	4.55
+ItemName_Plain Maggi	ItemName_REAL 	1.821	4.505
+ItemName_DAIRY MILK@35	ItemName_OREO	1.23	4.5
+ItemName_DUKE WAFFY BISCUIT	ItemName_FUNGAMA	1.21	4.407
+ItemName_Butter Naan	ItemName_COKE CAN	1.427	4.31
+ItemName_CHCO PIE	ItemName_OREO	1.23	4.167
+ItemName_Plain Maggi	ItemName_BINOG CHIP @10	1.581	4.021
+ItemName_PEPSI 600ML	ItemName_DEW MIX	2.914	4.011

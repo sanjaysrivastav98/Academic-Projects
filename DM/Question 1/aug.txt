@@ -1,0 +1,569 @@
+Consequent	Antecedent 	Support %	Confidence %
+ItemName_Butter Naan	StudentIDval_6 and hours_21	0.336	100.0
+ItemName_Butter Naan	StudentIDval_6 and hours_20	0.336	100.0
+ItemName_Ice Cream Shake	StudentIDval_6 and hours_24	0.336	100.0
+ItemName_Ice Cream Shake	StudentIDval_6 and hours_22	0.336	100.0
+ItemName_Ice Cream Shake	StudentIDval_6 and hours_23	0.336	100.0
+ItemName_Ice Cream Shake	StudentIDval_1 and hours_24	0.336	100.0
+ItemName_Ice Cream Shake	StudentIDval_1 and hours_22	0.336	100.0
+ItemName_Butter Naan	StudentIDval_7 and hours_24	0.336	100.0
+ItemName_Butter Naan	StudentIDval_7 and hours_23	0.336	100.0
+ItemName_Ice Cream Shake	StudentIDval_7 and hours_22	0.336	100.0
+ItemName_Ice Cream Shake	StudentIDval_2 and hours_24	0.336	100.0
+ItemName_Ice Cream Shake	StudentIDval_6	1.678	60.0
+ItemName_Ice Cream Shake	StudentIDval_1	3.02	55.556
+ItemName_Butter Naan	StudentIDval_1 and hours_21	0.671	50.0
+ItemName_Butter Naan	StudentIDval_1 and hours_20	0.671	50.0
+ItemName_Ice Cream Shake	StudentIDval_1 and hours_21	0.671	50.0
+ItemName_Ice Cream Shake	StudentIDval_1 and hours_20	0.671	50.0
+ItemName_Plain Maggi	StudentIDval_3 and hours_24	0.671	50.0
+ItemName_SINGLE SCOOP	StudentIDval_5 and hours_20	0.671	50.0
+ItemName_Butter Naan	StudentIDval_2 and hours_21	0.671	50.0
+ItemName_Ice Cream Shake	StudentIDval_2 and hours_21	0.671	50.0
+ItemName_Ice Cream Shake	StudentIDval_3 and hours_24	0.671	50.0
+ItemName_Butter Naan	StudentIDval_5 and hours_20	0.671	50.0
+ItemName_Butter Naan	StudentIDval_6	1.678	40.0
+ItemName_BHELPURI	hours_16	1.007	33.333
+ItemName_Veg Petty	hours_16	1.007	33.333
+ItemName_Pastry	hours_16	1.007	33.333
+ItemName_Butter Naan	StudentIDval_7	4.027	33.333
+ItemName_BHELPURI	hours_16 and StudentIDval_8	1.007	33.333
+ItemName_Veg Petty	hours_16 and StudentIDval_8	1.007	33.333
+ItemName_Pastry	hours_16 and StudentIDval_8	1.007	33.333
+ItemName_DEW MIX	StudentIDval_1 and hours_23	1.007	33.333
+ItemName_Chese Toast	StudentIDval_1 and hours_23	1.007	33.333
+ItemName_Ice Cream Shake	StudentIDval_1 and hours_23	1.007	33.333
+ItemName_SINGLE SCOOP	StudentIDval_7 and hours_21	1.007	33.333
+ItemName_Butter Naan	StudentIDval_7 and hours_21	1.007	33.333
+ItemName_Ice Cream Shake	StudentIDval_7 and hours_21	1.007	33.333
+ItemName_Chese Toast	StudentIDval_4 and hours_21	1.007	33.333
+ItemName_Butter Naan	StudentIDval_4 and hours_21	1.007	33.333
+ItemName_Ice Cream Shake	StudentIDval_4 and hours_21	1.007	33.333
+ItemName_Ice Cream Shake	StudentIDval_2	5.705	29.412
+ItemName_Ice Cream Shake	StudentIDval_7	4.027	25.0
+ItemName_Chese Burger	StudentIDval_4 and hours_22	1.342	25.0
+ItemName_CAKE SANDWICH	StudentIDval_5 and hours_22	1.342	25.0
+ItemName_Tandury Chicken 1/2	StudentIDval_2 and hours_20	1.342	25.0
+ItemName_PEPSI 600ML	StudentIDval_2 and hours_20	1.342	25.0
+ItemName_DEW MIX	StudentIDval_2 and hours_23	1.342	25.0
+ItemName_DEW MIX	StudentIDval_3 and hours_23	1.342	25.0
+ItemName_DEW MIX	StudentIDval_5 and hours_22	1.342	25.0
+ItemName_Chese Toast	StudentIDval_2 and hours_23	1.342	25.0
+ItemName_Butter Naan	StudentIDval_2 and hours_23	1.342	25.0
+ItemName_Butter Naan	StudentIDval_2 and hours_20	1.342	25.0
+ItemName_Ice Cream Shake	StudentIDval_2 and hours_23	1.342	25.0
+ItemName_Ice Cream Shake	StudentIDval_2 and hours_20	1.342	25.0
+ItemName_Chese Toast	StudentIDval_3 and hours_23	1.342	25.0
+ItemName_Chese Toast	StudentIDval_4 and hours_22	1.342	25.0
+ItemName_Butter Naan	StudentIDval_3 and hours_23	1.342	25.0
+ItemName_Ice Cream Shake	StudentIDval_3 and hours_23	1.342	25.0
+ItemName_Butter Naan	StudentIDval_4 and hours_22	1.342	25.0
+ItemName_Ice Cream Shake	StudentIDval_4 and hours_22	1.342	25.0
+ItemName_Butter Naan	StudentIDval_5 and hours_22	1.342	25.0
+ItemName_Ice Cream Shake	StudentIDval_5 and hours_22	1.342	25.0
+ItemName_Butter Naan	StudentIDval_2	5.705	23.529
+ItemName_Ice Cream Shake	StudentIDval_3	7.383	22.727
+ItemName_Butter Naan	StudentIDval_1	3.02	22.222
+ItemName_Butter Naan	StudentIDval_4	8.389	20.0
+ItemName_Ice Cream Shake	StudentIDval_4	8.389	20.0
+ItemName_Tandury Chicken 1/2	StudentIDval_3 and hours_20	1.678	20.0
+ItemName_PEPSI 600ML	StudentIDval_3 and hours_21	1.678	20.0
+ItemName_PEPSI 600ML	StudentIDval_3 and hours_20	1.678	20.0
+ItemName_DEW MIX	StudentIDval_3 and hours_21	1.678	20.0
+ItemName_Chese Toast	StudentIDval_3 and hours_21	1.678	20.0
+ItemName_Chese Toast	StudentIDval_3 and hours_20	1.678	20.0
+ItemName_Butter Naan	StudentIDval_3 and hours_21	1.678	20.0
+ItemName_Butter Naan	StudentIDval_3 and hours_20	1.678	20.0
+ItemName_Ice Cream Shake	StudentIDval_3 and hours_21	1.678	20.0
+ItemName_Ice Cream Shake	StudentIDval_3 and hours_20	1.678	20.0
+ItemName_Chese Toast	StudentIDval_3	7.383	18.182
+ItemName_Butter Naan	StudentIDval_3	7.383	18.182
+ItemName_SINGLE SCOOP	StudentIDval_7	4.027	16.667
+ItemName_Paneer Franky	StudentIDval_5 and hours_21	2.013	16.667
+ItemName_Pasta	StudentIDval_5 and hours_23	2.013	16.667
+ItemName_Chese Burger	StudentIDval_2 and hours_22	2.013	16.667
+ItemName_Chese Burger	StudentIDval_3 and hours_22	2.013	16.667
+ItemName_KADHAI PANEER	StudentIDval_4 and hours_20	2.013	16.667
+ItemName_Masala Dosa	StudentIDval_7 and hours_20	2.013	16.667
+ItemName_Butter Chicken	StudentIDval_7 and hours_20	2.013	16.667
+ItemName_Butter Chicken	StudentIDval_4 and hours_20	2.013	16.667
+ItemName_BINOG CHIP @10	StudentIDval_4 and hours_24	2.013	16.667
+ItemName_BINOG CHIP @10	StudentIDval_4 and hours_23	2.013	16.667
+ItemName_Tandury Chicken 1/2	StudentIDval_7 and hours_20	2.013	16.667
+ItemName_Tandury Chicken 1/2	StudentIDval_4 and hours_20	2.013	16.667
+ItemName_Plain Maggi	StudentIDval_4 and hours_24	2.013	16.667
+ItemName_Plain Maggi	StudentIDval_5 and hours_23	2.013	16.667
+ItemName_SINGLE SCOOP	StudentIDval_7 and hours_20	2.013	16.667
+ItemName_SINGLE SCOOP	StudentIDval_3 and hours_22	2.013	16.667
+ItemName_SINGLE SCOOP	StudentIDval_5 and hours_21	2.013	16.667
+ItemName_Butter Naan	StudentIDval_7 and hours_20	2.013	16.667
+ItemName_Ice Cream Shake	StudentIDval_7 and hours_20	2.013	16.667
+ItemName_PEPSI 600ML	StudentIDval_2 and hours_22	2.013	16.667
+ItemName_PEPSI 600ML	StudentIDval_3 and hours_22	2.013	16.667
+ItemName_PEPSI 600ML	StudentIDval_4 and hours_24	2.013	16.667
+ItemName_PEPSI 600ML	StudentIDval_4 and hours_23	2.013	16.667
+ItemName_PEPSI 600ML	StudentIDval_4 and hours_20	2.013	16.667
+ItemName_DEW MIX	StudentIDval_2 and hours_22	2.013	16.667
+ItemName_DEW MIX	StudentIDval_4 and hours_23	2.013	16.667
+ItemName_DEW MIX	StudentIDval_5 and hours_21	2.013	16.667
+ItemName_DEW MIX	StudentIDval_5 and hours_23	2.013	16.667
+ItemName_Chese Toast	StudentIDval_2 and hours_22	2.013	16.667
+ItemName_Butter Naan	StudentIDval_2 and hours_22	2.013	16.667
+ItemName_Ice Cream Shake	StudentIDval_2 and hours_22	2.013	16.667
+ItemName_Chese Toast	StudentIDval_3 and hours_22	2.013	16.667
+ItemName_Chese Toast	StudentIDval_4 and hours_24	2.013	16.667
+ItemName_Chese Toast	StudentIDval_4 and hours_23	2.013	16.667
+ItemName_Chese Toast	StudentIDval_5 and hours_21	2.013	16.667
+ItemName_Chese Toast	StudentIDval_5 and hours_23	2.013	16.667
+ItemName_Butter Naan	StudentIDval_3 and hours_22	2.013	16.667
+ItemName_Ice Cream Shake	StudentIDval_3 and hours_22	2.013	16.667
+ItemName_Butter Naan	StudentIDval_4 and hours_24	2.013	16.667
+ItemName_Butter Naan	StudentIDval_4 and hours_23	2.013	16.667
+ItemName_Butter Naan	StudentIDval_4 and hours_20	2.013	16.667
+ItemName_Ice Cream Shake	StudentIDval_4 and hours_24	2.013	16.667
+ItemName_Ice Cream Shake	StudentIDval_4 and hours_23	2.013	16.667
+ItemName_Ice Cream Shake	StudentIDval_4 and hours_20	2.013	16.667
+ItemName_Butter Naan	StudentIDval_5 and hours_21	2.013	16.667
+ItemName_Butter Naan	StudentIDval_5 and hours_23	2.013	16.667
+ItemName_Ice Cream Shake	StudentIDval_5 and hours_21	2.013	16.667
+ItemName_Ice Cream Shake	StudentIDval_5 and hours_23	2.013	16.667
+ItemName_Chese Toast	StudentIDval_4	8.389	16.0
+ItemName_DEW MIX	StudentIDval_5	8.725	15.385
+ItemName_Butter Naan	StudentIDval_5	8.725	15.385
+ItemName_Ice Cream Shake	StudentIDval_5	8.725	15.385
+ItemName_Ice Cream Shake	hours_24	16.443	14.286
+ItemName_Ice Cream Shake	hours_22	18.792	14.286
+ItemName_Butter Naan	hours_21	19.128	14.035
+ItemName_Butter Naan	hours_20	19.463	13.793
+ItemName_PEPSI 600ML	StudentIDval_3	7.383	13.636
+ItemName_SLICE TP	hours_18	2.685	12.5
+ItemName_Veg Petty	hours_18	2.685	12.5
+ItemName_SLICE 600ML	hours_18	2.685	12.5
+ItemName_CAKE SANDWICH	hours_18	2.685	12.5
+ItemName_Pastry	hours_18	2.685	12.5
+ItemName_PERK / DAIRY MILK	hours_18	2.685	12.5
+ItemName_MYCAN	hours_18	2.685	12.5
+ItemName_BINOG CHIP @10	hours_18	2.685	12.5
+ItemName_CHCO PIE	StudentIDval_5 and hours_24	2.685	12.5
+ItemName_SLICE TP	hours_18 and StudentIDval_8	2.685	12.5
+ItemName_Veg Petty	hours_18 and StudentIDval_8	2.685	12.5
+ItemName_SLICE 600ML	hours_18 and StudentIDval_8	2.685	12.5
+ItemName_Fried Maggi	StudentIDval_5 and hours_24	2.685	12.5
+ItemName_CAKE SANDWICH	hours_18 and StudentIDval_8	2.685	12.5
+ItemName_Pastry	hours_18 and StudentIDval_8	2.685	12.5
+ItemName_PERK / DAIRY MILK	hours_18 and StudentIDval_8	2.685	12.5
+ItemName_MYCAN	hours_18 and StudentIDval_8	2.685	12.5
+ItemName_BINOG CHIP @10	hours_18 and StudentIDval_8	2.685	12.5
+ItemName_Plain Maggi	StudentIDval_5 and hours_24	2.685	12.5
+ItemName_SINGLE SCOOP	StudentIDval_5 and hours_24	2.685	12.5
+ItemName_PEPSI 600ML	StudentIDval_5 and hours_24	2.685	12.5
+ItemName_DEW MIX	StudentIDval_5 and hours_24	2.685	12.5
+ItemName_Chese Toast	StudentIDval_5 and hours_24	2.685	12.5
+ItemName_Ice Cream Shake	StudentIDval_5 and hours_24	2.685	12.5
+ItemName_Ice Cream Shake	hours_21	19.128	12.281
+ItemName_Ice Cream Shake	hours_23	19.463	12.069
+ItemName_PEPSI 600ML	StudentIDval_4	8.389	12.0
+ItemName_PEPSI 600ML	StudentIDval_2	5.705	11.765
+ItemName_DEW MIX	StudentIDval_2	5.705	11.765
+ItemName_Chese Toast	StudentIDval_2	5.705	11.765
+ItemName_SINGLE SCOOP	StudentIDval_5	8.725	11.538
+ItemName_Chese Toast	StudentIDval_5	8.725	11.538
+ItemName_CHCO PIE	hours_17	3.02	11.111
+ItemName_Veg Petty	hours_17	3.02	11.111
+ItemName_PULPY ORANGE	hours_17	3.02	11.111
+ItemName_CAKE SANDWICH	hours_17	3.02	11.111
+ItemName_Pastry	hours_17	3.02	11.111
+ItemName_PERK / DAIRY MILK	hours_17	3.02	11.111
+ItemName_MYCAN	hours_17	3.02	11.111
+ItemName_BINOG CHIP @10	hours_17	3.02	11.111
+ItemName_PEPSI 600ML	hours_17	3.02	11.111
+ItemName_DEW MIX	StudentIDval_1	3.02	11.111
+ItemName_Chese Toast	StudentIDval_1	3.02	11.111
+ItemName_CHCO PIE	hours_17 and StudentIDval_8	3.02	11.111
+ItemName_Veg Petty	hours_17 and StudentIDval_8	3.02	11.111
+ItemName_PULPY ORANGE	hours_17 and StudentIDval_8	3.02	11.111
+ItemName_CAKE SANDWICH	hours_17 and StudentIDval_8	3.02	11.111
+ItemName_Pastry	hours_17 and StudentIDval_8	3.02	11.111
+ItemName_PERK / DAIRY MILK	hours_17 and StudentIDval_8	3.02	11.111
+ItemName_MYCAN	hours_17 and StudentIDval_8	3.02	11.111
+ItemName_BINOG CHIP @10	hours_17 and StudentIDval_8	3.02	11.111
+ItemName_PEPSI 600ML	hours_17 and StudentIDval_8	3.02	11.111
+ItemName_DEW MIX	hours_23	19.463	10.345
+ItemName_Chese Toast	hours_23	19.463	10.345
+ItemName_Butter Naan	hours_23	19.463	10.345
+ItemName_Ice Cream Shake	hours_20	19.463	10.345
+ItemName_DEW MIX	StudentIDval_3	7.383	9.091
+ItemName_Butter Naan	hours_22	18.792	8.929
+ItemName_Tandury Chicken 1/2	hours_20	19.463	8.621
+ItemName_Masala Dosa	StudentIDval_7	4.027	8.333
+ItemName_Butter Chicken	StudentIDval_7	4.027	8.333
+ItemName_Tandury Chicken 1/2	StudentIDval_7	4.027	8.333
+ItemName_Plain Maggi	hours_24	16.443	8.163
+ItemName_BINOG CHIP @10	StudentIDval_4	8.389	8.0
+ItemName_Plain Maggi	StudentIDval_5	8.725	7.692
+ItemName_Chese Burger	hours_22	18.792	7.143
+ItemName_Chese Toast	hours_22	18.792	7.143
+ItemName_Chese Toast	hours_21	19.128	7.018
+ItemName_PEPSI 600ML	hours_20	19.463	6.897
+ItemName_PEPSI 600ML	hours_24	16.443	6.122
+ItemName_Chese Toast	hours_24	16.443	6.122
+ItemName_Butter Naan	hours_24	16.443	6.122
+ItemName_Chese Burger	StudentIDval_2	5.705	5.882
+ItemName_Tandury Chicken 1/2	StudentIDval_2	5.705	5.882
+ItemName_PEPSI 600ML	hours_22	18.792	5.357
+ItemName_DEW MIX	hours_22	18.792	5.357
+ItemName_SINGLE SCOOP	hours_21	19.128	5.263
+ItemName_DEW MIX	hours_21	19.128	5.263
+ItemName_Butter Chicken	hours_20	19.463	5.172
+ItemName_SINGLE SCOOP	hours_20	19.463	5.172
+ItemName_Chese Burger	StudentIDval_3	7.383	4.545
+ItemName_Tandury Chicken 1/2	StudentIDval_3	7.383	4.545
+ItemName_Plain Maggi	StudentIDval_3	7.383	4.545
+ItemName_SINGLE SCOOP	StudentIDval_3	7.383	4.545
+ItemName_Fried Maggi	hours_24	16.443	4.082
+ItemName_BINOG CHIP @10	hours_24	16.443	4.082
+ItemName_SINGLE SCOOP	hours_24	16.443	4.082
+ItemName_DEW MIX	hours_24	16.443	4.082
+ItemName_Chese Burger	StudentIDval_4	8.389	4.0
+ItemName_KADHAI PANEER	StudentIDval_4	8.389	4.0
+ItemName_Butter Chicken	StudentIDval_4	8.389	4.0
+ItemName_Tandury Chicken 1/2	StudentIDval_4	8.389	4.0
+ItemName_Plain Maggi	StudentIDval_4	8.389	4.0
+ItemName_DEW MIX	StudentIDval_4	8.389	4.0
+ItemName_CHCO PIE	StudentIDval_5	8.725	3.846
+ItemName_Paneer Franky	StudentIDval_5	8.725	3.846
+ItemName_Pasta	StudentIDval_5	8.725	3.846
+ItemName_Fried Maggi	StudentIDval_5	8.725	3.846
+ItemName_CAKE SANDWICH	StudentIDval_5	8.725	3.846
+ItemName_Pastry	StudentIDval_8	61.074	3.846
+ItemName_PERK / DAIRY MILK	StudentIDval_8	61.074	3.846
+ItemName_MYCAN	StudentIDval_8	61.074	3.846
+ItemName_BINOG CHIP @10	StudentIDval_8	61.074	3.846
+ItemName_PEPSI 600ML	StudentIDval_5	8.725	3.846
+ItemName_SINGLE SCOOP	hours_22	18.792	3.571
+ItemName_PEPSI 600ML	hours_21	19.128	3.509
+ItemName_Pasta	hours_23	19.463	3.448
+ItemName_KADHAI PANEER	hours_20	19.463	3.448
+ItemName_Masala Dosa	hours_20	19.463	3.448
+ItemName_BINOG CHIP @10	hours_23	19.463	3.448
+ItemName_Plain Maggi	hours_23	19.463	3.448
+ItemName_PEPSI 600ML	hours_23	19.463	3.448
+ItemName_Chese Toast	hours_20	19.463	3.448
+ItemName_TROPICANA APPLE	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_COKE CAN 300 ML	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Paneer Franky	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Paneer Maggi	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_BIS JAM TREAT @15	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Veg Rice	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_TROPICANA	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Egg Rice	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Plain Dosa	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Pasta	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_BHELPURI	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_SLICE 600ML	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Fried Maggi	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_PULPY ORANGE	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_KADHAI PANEER	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Masala Dosa	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Pastry	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_PERK / DAIRY MILK	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_MYCAN	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Butter Chicken	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_BINOG CHIP @10	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Tandury Chicken 1/2	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Plain Maggi	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_SINGLE SCOOP	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_PEPSI 600ML	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_DEW MIX	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Chese Toast	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Butter Naan	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_Ice Cream Shake	hours_24 and StudentIDval_8	9.732	3.448
+ItemName_BHELPURI	StudentIDval_8	61.074	3.297
+ItemName_Veg Petty	StudentIDval_8	61.074	3.297
+ItemName_SLICE 600ML	StudentIDval_8	61.074	3.297
+ItemName_PULPY ORANGE	StudentIDval_8	61.074	3.297
+ItemName_PEPSI 600ML	StudentIDval_8	61.074	3.297
+ItemName_CHILLI PANEER	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Paneer Maggi	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Onion Uttapam	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_DAIRY MILK@35	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Mix Uttapam	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Veg Rice	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_TROPICANA	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Egg Rice	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Plain Dosa	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Pasta	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Chese Burger	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_BHELPURI	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Veg Petty	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_SLICE 600ML	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Fried Maggi	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_PULPY ORANGE	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_KADHAI PANEER	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Masala Dosa	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_CAKE SANDWICH	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Pastry	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_PERK / DAIRY MILK	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_MYCAN	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Butter Chicken	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_BINOG CHIP @10	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Tandury Chicken 1/2	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Plain Maggi	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_SINGLE SCOOP	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_PEPSI 600ML	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_DEW MIX	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Chese Toast	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Butter Naan	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_Ice Cream Shake	hours_20 and StudentIDval_8	10.738	3.125
+ItemName_FRANCH FRY	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_JUMPIN MANGO	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Paneer Franky	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Paneer Franky	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Paneer Maggi	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Paneer Maggi	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Onion Uttapam	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Onion Uttapam	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_DAIRY MILK@35	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_DAIRY MILK@35	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Mix Uttapam	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Mix Uttapam	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_SLICE TP	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_SLICE TP	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_BIS JAM TREAT @15	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_BIS JAM TREAT @15	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Veg Rice	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Veg Rice	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_TROPICANA	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_TROPICANA	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Egg Rice	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Egg Rice	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Plain Dosa	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Plain Dosa	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Pasta	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Pasta	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Chese Burger	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_BHELPURI	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_BHELPURI	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Veg Petty	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_SLICE 600ML	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_SLICE 600ML	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Fried Maggi	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Fried Maggi	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_PULPY ORANGE	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_PULPY ORANGE	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_KADHAI PANEER	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_KADHAI PANEER	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Masala Dosa	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Masala Dosa	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_CAKE SANDWICH	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Pastry	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_PERK / DAIRY MILK	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_PERK / DAIRY MILK	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_MYCAN	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_MYCAN	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Butter Chicken	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Butter Chicken	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_BINOG CHIP @10	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_BINOG CHIP @10	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Tandury Chicken 1/2	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Tandury Chicken 1/2	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Plain Maggi	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Plain Maggi	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_SINGLE SCOOP	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_SINGLE SCOOP	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_PEPSI 600ML	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_PEPSI 600ML	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_DEW MIX	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_DEW MIX	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Chese Toast	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Chese Toast	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Butter Naan	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Butter Naan	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_Ice Cream Shake	hours_22 and StudentIDval_8	11.074	3.03
+ItemName_Ice Cream Shake	hours_23 and StudentIDval_8	11.074	3.03
+ItemName_COKE CAN 300 ML	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_CHILLI PANEER	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_CHCO PIE	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Onion Uttapam	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_DAIRY MILK@35	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Mix Uttapam	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_SLICE TP	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_BIS JAM TREAT @15	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Veg Rice	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_TROPICANA	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Egg Rice	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Plain Dosa	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Pasta	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Chese Burger	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_BHELPURI	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Veg Petty	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_SLICE 600ML	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Fried Maggi	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_PULPY ORANGE	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_KADHAI PANEER	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Masala Dosa	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_CAKE SANDWICH	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Pastry	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_PERK / DAIRY MILK	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_MYCAN	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Butter Chicken	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_BINOG CHIP @10	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Tandury Chicken 1/2	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Plain Maggi	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_SINGLE SCOOP	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_PEPSI 600ML	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_DEW MIX	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Chese Toast	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Butter Naan	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Ice Cream Shake	hours_21 and StudentIDval_8	11.745	2.857
+ItemName_Veg Rice	StudentIDval_8	61.074	2.747
+ItemName_TROPICANA	StudentIDval_8	61.074	2.747
+ItemName_Egg Rice	StudentIDval_8	61.074	2.747
+ItemName_Plain Dosa	StudentIDval_8	61.074	2.747
+ItemName_Pasta	StudentIDval_8	61.074	2.747
+ItemName_Fried Maggi	StudentIDval_8	61.074	2.747
+ItemName_KADHAI PANEER	StudentIDval_8	61.074	2.747
+ItemName_Masala Dosa	StudentIDval_8	61.074	2.747
+ItemName_CAKE SANDWICH	StudentIDval_8	61.074	2.747
+ItemName_Butter Chicken	StudentIDval_8	61.074	2.747
+ItemName_Tandury Chicken 1/2	StudentIDval_8	61.074	2.747
+ItemName_Plain Maggi	StudentIDval_8	61.074	2.747
+ItemName_SINGLE SCOOP	StudentIDval_8	61.074	2.747
+ItemName_DEW MIX	StudentIDval_8	61.074	2.747
+ItemName_Chese Toast	StudentIDval_8	61.074	2.747
+ItemName_Butter Naan	StudentIDval_8	61.074	2.747
+ItemName_Ice Cream Shake	StudentIDval_8	61.074	2.747
+ItemName_Paneer Maggi	StudentIDval_8	61.074	2.198
+ItemName_Onion Uttapam	StudentIDval_8	61.074	2.198
+ItemName_DAIRY MILK@35	StudentIDval_8	61.074	2.198
+ItemName_Mix Uttapam	StudentIDval_8	61.074	2.198
+ItemName_SLICE TP	StudentIDval_8	61.074	2.198
+ItemName_BIS JAM TREAT @15	StudentIDval_8	61.074	2.198
+ItemName_TROPICANA APPLE	hours_24	16.443	2.041
+ItemName_COKE CAN 300 ML	hours_24	16.443	2.041
+ItemName_CHCO PIE	hours_24	16.443	2.041
+ItemName_Paneer Franky	hours_24	16.443	2.041
+ItemName_Paneer Maggi	hours_24	16.443	2.041
+ItemName_BIS JAM TREAT @15	hours_24	16.443	2.041
+ItemName_Veg Rice	hours_24	16.443	2.041
+ItemName_TROPICANA	hours_24	16.443	2.041
+ItemName_Egg Rice	hours_24	16.443	2.041
+ItemName_Plain Dosa	hours_24	16.443	2.041
+ItemName_Pasta	hours_24	16.443	2.041
+ItemName_BHELPURI	hours_24	16.443	2.041
+ItemName_SLICE 600ML	hours_24	16.443	2.041
+ItemName_PULPY ORANGE	hours_24	16.443	2.041
+ItemName_KADHAI PANEER	hours_24	16.443	2.041
+ItemName_Masala Dosa	hours_24	16.443	2.041
+ItemName_Pastry	hours_24	16.443	2.041
+ItemName_PERK / DAIRY MILK	hours_24	16.443	2.041
+ItemName_MYCAN	hours_24	16.443	2.041
+ItemName_Butter Chicken	hours_24	16.443	2.041
+ItemName_Tandury Chicken 1/2	hours_24	16.443	2.041
+ItemName_FRANCH FRY	hours_22	18.792	1.786
+ItemName_Paneer Franky	hours_22	18.792	1.786
+ItemName_Paneer Maggi	hours_22	18.792	1.786
+ItemName_Onion Uttapam	hours_22	18.792	1.786
+ItemName_DAIRY MILK@35	hours_22	18.792	1.786
+ItemName_Mix Uttapam	hours_22	18.792	1.786
+ItemName_SLICE TP	hours_22	18.792	1.786
+ItemName_BIS JAM TREAT @15	hours_22	18.792	1.786
+ItemName_Veg Rice	hours_22	18.792	1.786
+ItemName_TROPICANA	hours_22	18.792	1.786
+ItemName_Egg Rice	hours_22	18.792	1.786
+ItemName_Plain Dosa	hours_22	18.792	1.786
+ItemName_Pasta	hours_22	18.792	1.786
+ItemName_BHELPURI	hours_22	18.792	1.786
+ItemName_Veg Petty	hours_22	18.792	1.786
+ItemName_SLICE 600ML	hours_22	18.792	1.786
+ItemName_Fried Maggi	hours_22	18.792	1.786
+ItemName_PULPY ORANGE	hours_22	18.792	1.786
+ItemName_KADHAI PANEER	hours_22	18.792	1.786
+ItemName_Masala Dosa	hours_22	18.792	1.786
+ItemName_CAKE SANDWICH	hours_22	18.792	1.786
+ItemName_PERK / DAIRY MILK	hours_22	18.792	1.786
+ItemName_MYCAN	hours_22	18.792	1.786
+ItemName_Butter Chicken	hours_22	18.792	1.786
+ItemName_BINOG CHIP @10	hours_22	18.792	1.786
+ItemName_Tandury Chicken 1/2	hours_22	18.792	1.786
+ItemName_Plain Maggi	hours_22	18.792	1.786
+ItemName_COKE CAN 300 ML	hours_21	19.128	1.754
+ItemName_CHILLI PANEER	hours_21	19.128	1.754
+ItemName_CHCO PIE	hours_21	19.128	1.754
+ItemName_Paneer Franky	hours_21	19.128	1.754
+ItemName_Onion Uttapam	hours_21	19.128	1.754
+ItemName_DAIRY MILK@35	hours_21	19.128	1.754
+ItemName_Mix Uttapam	hours_21	19.128	1.754
+ItemName_SLICE TP	hours_21	19.128	1.754
+ItemName_BIS JAM TREAT @15	hours_21	19.128	1.754
+ItemName_Veg Rice	hours_21	19.128	1.754
+ItemName_TROPICANA	hours_21	19.128	1.754
+ItemName_Egg Rice	hours_21	19.128	1.754
+ItemName_Plain Dosa	hours_21	19.128	1.754
+ItemName_Pasta	hours_21	19.128	1.754
+ItemName_Chese Burger	hours_21	19.128	1.754
+ItemName_BHELPURI	hours_21	19.128	1.754
+ItemName_Veg Petty	hours_21	19.128	1.754
+ItemName_SLICE 600ML	hours_21	19.128	1.754
+ItemName_Fried Maggi	hours_21	19.128	1.754
+ItemName_PULPY ORANGE	hours_21	19.128	1.754
+ItemName_KADHAI PANEER	hours_21	19.128	1.754
+ItemName_Masala Dosa	hours_21	19.128	1.754
+ItemName_CAKE SANDWICH	hours_21	19.128	1.754
+ItemName_Pastry	hours_21	19.128	1.754
+ItemName_PERK / DAIRY MILK	hours_21	19.128	1.754
+ItemName_MYCAN	hours_21	19.128	1.754
+ItemName_Butter Chicken	hours_21	19.128	1.754
+ItemName_BINOG CHIP @10	hours_21	19.128	1.754
+ItemName_Tandury Chicken 1/2	hours_21	19.128	1.754
+ItemName_Plain Maggi	hours_21	19.128	1.754
+ItemName_JUMPIN MANGO	hours_23	19.463	1.724
+ItemName_CHILLI PANEER	hours_20	19.463	1.724
+ItemName_Paneer Franky	hours_23	19.463	1.724
+ItemName_Paneer Maggi	hours_23	19.463	1.724
+ItemName_Paneer Maggi	hours_20	19.463	1.724
+ItemName_Onion Uttapam	hours_23	19.463	1.724
+ItemName_Onion Uttapam	hours_20	19.463	1.724
+ItemName_DAIRY MILK@35	hours_23	19.463	1.724
+ItemName_DAIRY MILK@35	hours_20	19.463	1.724
+ItemName_Mix Uttapam	hours_23	19.463	1.724
+ItemName_Mix Uttapam	hours_20	19.463	1.724
+ItemName_SLICE TP	hours_23	19.463	1.724
+ItemName_BIS JAM TREAT @15	hours_23	19.463	1.724
+ItemName_Veg Rice	hours_23	19.463	1.724
+ItemName_Veg Rice	hours_20	19.463	1.724
+ItemName_TROPICANA	hours_23	19.463	1.724
+ItemName_TROPICANA	hours_20	19.463	1.724
+ItemName_Egg Rice	hours_23	19.463	1.724
+ItemName_Egg Rice	hours_20	19.463	1.724
+ItemName_Plain Dosa	hours_23	19.463	1.724
+ItemName_Plain Dosa	hours_20	19.463	1.724
+ItemName_Pasta	hours_20	19.463	1.724
+ItemName_Chese Burger	hours_20	19.463	1.724
+ItemName_BHELPURI	hours_23	19.463	1.724
+ItemName_BHELPURI	hours_20	19.463	1.724
+ItemName_Veg Petty	hours_20	19.463	1.724
+ItemName_SLICE 600ML	hours_23	19.463	1.724
+ItemName_SLICE 600ML	hours_20	19.463	1.724
+ItemName_Fried Maggi	hours_23	19.463	1.724
+ItemName_Fried Maggi	hours_20	19.463	1.724
+ItemName_PULPY ORANGE	hours_23	19.463	1.724
+ItemName_PULPY ORANGE	hours_20	19.463	1.724
+ItemName_KADHAI PANEER	hours_23	19.463	1.724
+ItemName_Masala Dosa	hours_23	19.463	1.724
+ItemName_CAKE SANDWICH	hours_23	19.463	1.724
+ItemName_CAKE SANDWICH	hours_20	19.463	1.724
+ItemName_Pastry	hours_23	19.463	1.724
+ItemName_Pastry	hours_20	19.463	1.724
+ItemName_PERK / DAIRY MILK	hours_23	19.463	1.724
+ItemName_PERK / DAIRY MILK	hours_20	19.463	1.724
+ItemName_MYCAN	hours_23	19.463	1.724
+ItemName_MYCAN	hours_20	19.463	1.724
+ItemName_Butter Chicken	hours_23	19.463	1.724
+ItemName_BINOG CHIP @10	hours_20	19.463	1.724
+ItemName_Tandury Chicken 1/2	hours_23	19.463	1.724
+ItemName_Plain Maggi	hours_20	19.463	1.724
+ItemName_SINGLE SCOOP	hours_23	19.463	1.724
+ItemName_DEW MIX	hours_20	19.463	1.724
+ItemName_Paneer Franky	StudentIDval_8	61.074	1.648
+ItemName_Chese Burger	StudentIDval_8	61.074	1.648

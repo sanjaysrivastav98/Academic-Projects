@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+	int count=1;
+	int a[count];
+	while(a!=NULL){
+	int a=(int)malloc(size of (count));
+	count++; }
+	printf("%d\n",count);
+}

@@ -1,0 +1,46 @@
+#! c:/iverilog-x64/bin/vvp
+:ivl_version "10.1 (stable)" "(v10_1_1)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_00000000012365c0 .scope module, "FA_dataflow" "FA_dataflow" 2 1;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 1 "Cout"
+    .port_info 1 /OUTPUT 1 "Sum"
+    .port_info 2 /INPUT 1 "In1"
+    .port_info 3 /INPUT 1 "In2"
+    .port_info 4 /INPUT 1 "Cin"
+o0000000000856fd8 .functor BUFZ 1, C4<z>; HiZ drive
+v0000000001237050_0 .net "Cin", 0 0, o0000000000856fd8;  0 drivers
+v000000000123edb0_0 .net "Cout", 0 0, L_00000000008ae160;  1 drivers
+o0000000000857038 .functor BUFZ 1, C4<z>; HiZ drive
+v000000000123ee50_0 .net "In1", 0 0, o0000000000857038;  0 drivers
+o0000000000857068 .functor BUFZ 1, C4<z>; HiZ drive
+v000000000123eef0_0 .net "In2", 0 0, o0000000000857068;  0 drivers
+v0000000001236740_0 .net "Sum", 0 0, L_00000000008ad940;  1 drivers
+L_00000000008ae770 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v00000000012367e0_0 .net *"_s10", 0 0, L_00000000008ae770;  1 drivers
+v0000000001236880_0 .net *"_s11", 1 0, L_00000000008ae3e0;  1 drivers
+v0000000001236920_0 .net *"_s13", 1 0, L_00000000008ae5c0;  1 drivers
+L_00000000008ae7b8 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v00000000008ad4a0_0 .net *"_s16", 0 0, L_00000000008ae7b8;  1 drivers
+v00000000008ad5d0_0 .net *"_s17", 1 0, L_00000000008adbc0;  1 drivers
+v00000000008ad670_0 .net *"_s3", 1 0, L_00000000008ae340;  1 drivers
+L_00000000008ae728 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v00000000008ae2a0_0 .net *"_s6", 0 0, L_00000000008ae728;  1 drivers
+v00000000008ad8a0_0 .net *"_s7", 1 0, L_00000000008ae200;  1 drivers
+L_00000000008ae160 .part L_00000000008adbc0, 1, 1;
+L_00000000008ad940 .part L_00000000008adbc0, 0, 1;
+L_00000000008ae340 .concat [ 1 1 0 0], o0000000000857038, L_00000000008ae728;
+L_00000000008ae200 .concat [ 1 1 0 0], o0000000000857068, L_00000000008ae770;
+L_00000000008ae3e0 .arith/sum 2, L_00000000008ae340, L_00000000008ae200;
+L_00000000008ae5c0 .concat [ 1 1 0 0], o0000000000856fd8, L_00000000008ae7b8;
+L_00000000008adbc0 .arith/sum 2, L_00000000008ae3e0, L_00000000008ae5c0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "FA_dataflow.v";

@@ -1,0 +1,35 @@
+Consequent	Antecedent 	Support %	Confidence %
+ItemName_Butter Naan	ItemName_Butter Chicken	2.973	84.237
+ItemName_Butter Naan	ItemName_KADHAI PANEER	2.956	82.353
+ItemName_Butter Naan	ItemName_Tandury Chicken 1/2	4.019	19.208
+ItemName_Butter Naan	ItemName_COKE MIX 600 ML and ItemName_Ice Cream Shake	1.128	9.023
+ItemName_Plain Maggi	ItemName_COKE MIX 600 ML and ItemName_Ice Cream Shake	1.128	7.519
+ItemName_Butter Naan	ItemName_COKE MIX 600 ML	13.14	7.327
+ItemName_Plain Maggi	ItemName_Masala Dosa	4.825	6.857
+ItemName_Plain Maggi	ItemName_Ice Cream Shake and ItemName_Chese Toast	3.412	6.588
+ItemName_Chicken Rice	ItemName_CHI.PASTA	1.128	6.203
+ItemName_Veg Petty	ItemName_BINOG CHIP @10	4.013	5.867
+ItemName_Butter Naan	ItemName_DEW MIX	3.733	5.852
+ItemName_SNICKERS SNACK 	ItemName_BINOG CHIP @20	2.619	5.749
+ItemName_Plain Maggi	ItemName_COKE MIX 600 ML and ItemName_Chese Toast	1.811	5.738
+ItemName_Plain Maggi	ItemName_Ice Cream Shake	16.19	5.606
+ItemName_SNICKERS SNACK 	ItemName_CAKE SANDWICH	2.127	5.384
+ItemName_Plain Maggi	ItemName_BINOG CHIP @20	2.619	5.182
+ItemName_Plain Maggi	ItemName_Pasta	3.003	5.085
+ItemName_Plain Maggi	ItemName_Chese Toast	16.99	5.006
+ItemName_Plain Maggi	ItemName_Paneer Franky	2.84	4.854
+ItemName_Plain Maggi	ItemName_DEW MIX	3.733	4.83
+ItemName_Butter Naan	ItemName_Pasta	3.003	4.661
+ItemName_Butter Naan	ItemName_Ice Cream Shake	16.19	4.624
+ItemName_Veg Petty	ItemName_REAL 	1.803	4.588
+ItemName_Plain Maggi	ItemName_PULPY ORANGE and ItemName_Chese Toast	1.345	4.574
+ItemName_Butter Naan	ItemName_COKE MIX 600 ML and ItemName_Chese Toast	1.811	4.45
+ItemName_Plain Maggi	ItemName_BINOG CHIP @10	4.013	4.387
+ItemName_Plain Maggi	ItemName_SINGLE SCOOP	1.145	4.259
+ItemName_Butter Naan	ItemName_PULPY ORANGE and ItemName_Chese Toast	1.345	4.259
+ItemName_Plain Maggi	ItemName_REAL 	1.803	4.235
+ItemName_PEPSI 600ML	ItemName_DEW MIX	3.733	4.205
+ItemName_Plain Maggi	ItemName_CAKE SANDWICH	2.127	4.187
+ItemName_Plain Maggi	ItemName_PULPY ORANGE	9.641	4.179
+ItemName_PEPSI 600ML	ItemName_CHI.PASTA	1.128	4.135
+ItemName_Plain Maggi	ItemName_COKE MIX 600 ML	13.14	4.099
