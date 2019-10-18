@@ -146,6 +146,8 @@ def main():
 		temp_m.penup()
 		temp_m.hideturtle()
 	win.exitonclick()
+
+print("Test code")
 actionMap={
 	-1:'init',
 	0:'sweep',
