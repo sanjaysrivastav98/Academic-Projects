@@ -3,26 +3,6 @@ from __future__ import print_function
 from turtle import *
 import turtle
 
-def drawGrid(t,x,y,ind):
-	t.speed(0)
-	if ind==1:
-		x_start=-1*x//6
-	else:
-		x_start=x//6
-	for i in range(10):
-		t.penup()
-		t.goto(x_start,y//2-i*y//20)
-		t.pendown()
-		t.forward(x//3)
-	t.penup()
-	t.right(90)
-	for i in range(10):
-		t.penup()
-		t.goto(x_start+(i*x)//30,y//2)
-		t.pendown()
-		t.forward(y//2)
-	t.left(90)
-
 def fillcolors(t,tile_list,ind,x,y,n):
 	if ind==1:
 		x_start=-1*x//6
@@ -46,6 +26,27 @@ def fillcolors(t,tile_list,ind,x,y,n):
 				t.fill(False)
 				t.penup()
 	t.hideturtle()
+
+def drawGrid(t,x,y,ind):
+	t.speed(0)
+	if ind==1:
+		x_start=-1*x//6
+	else:
+		x_start=x//6
+	for i in range(10):
+		t.penup()
+		t.goto(x_start,y//2-i*y//20)
+		t.pendown()
+		t.forward(x//3)
+	t.penup()
+	t.right(90)
+	for i in range(10):
+		t.penup()
+		t.goto(x_start+(i*x)//30,y//2)
+		t.pendown()
+		t.forward(y//2)
+	t.left(90)
+
 
 def cleanDirt(x,y,i,j,ind):
 	turt=Turtle()
